@@ -1,0 +1,108 @@
+.contact-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+  
+    form {
+      display: flex;
+      flex-direction: column;
+  
+      label {
+        margin-bottom: 5px;
+        color: black;
+        font-weight: bolder;
+      }
+  .slectoption{
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 50px #015004;
+  }
+  .disabled{
+    height: 20px;
+    width: 20px;
+  }
+      input,
+      textarea {
+        margin-bottom: 15px;
+        height: 20px;
+        padding: 8px;
+        border-radius:20px;
+        box-shadow: 0 0 50px #015004;
+        font-style: italic;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+
+      }
+  
+      button {
+        background-color: #015004;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+        width: 100px;
+        border-radius: 30px;
+        margin-top: 20px;
+        height: 50px;
+        transition: transform 0.3s ease ; 
+        font-size: larger;
+        
+        &:hover {
+          transform: scale(1.1);
+         
+          
+        }
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 360px) and (max-width:375px){
+    .contact-form-container {
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 10px;
+    
+      form {
+        display: flex;
+        flex-direction: column;
+    
+        label {
+          margin-bottom: 5px;
+          color: black;
+          font-weight: bolder;
+        }
+    .slectoption{
+      border-radius: 20px;
+      height: 30px;
+      margin-bottom: 10px;
+    }
+    .disabled{
+      height: 20px;
+      width: 20px;
+    }
+        input,
+        textarea {
+          margin-bottom: 15px;
+          padding: 8px;
+          border-radius:20px;
+          font-style: italic;
+  
+        }
+    
+        button {
+          background-color: #015004;
+          color: #fff;
+          padding: 10px;
+          cursor: pointer;
+          width: 100px;
+          border-radius: 30px;
+          margin-top: 20px;
+          height: 50px;
+          font-size: larger;
+        }
+      }
+    }    
+  }
+  @media only screen and (min-width:500px) and (max-width:1000px){}

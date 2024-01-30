@@ -1,0 +1,861 @@
+.contactpagefirstpart{
+    display: flex;
+    columns: 2;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+.RightSide1{
+    width: 650px;
+    background-color: rgb(255, 255, 255);
+}
+.letscommence{
+    margin-top: 50px;
+    margin-left: 80px;
+    color: #015004;
+    font-size: 50px;
+}
+.venturing{
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.venturing1{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+}
+.LeftSide1{
+    width: 700px;
+    background-color:rgb(255, 255, 255);
+}
+.ImageContact1{
+    height: 400px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.Secondpart{
+    background-color: #ffffff;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    columns: 2;
+    margin-bottom: -350px;
+}
+.formside{
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+}
+.after{
+    margin-left: 80px;
+    margin-top: 40px;
+    color: #015004;
+    font-size: 35px;
+}
+.nextsteps{
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (min-width: 360px) and (max-width:375px){
+
+    .contactpagefirstpart{
+        display: grid;
+        columns: 1;
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .RightSide1{
+        width: 360px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .venturing{
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 20px;
+        width: 320px;
+    }
+    .venturing1{
+        margin-top: 30px;
+        margin-left: 12px;
+        font-size: 15px;
+
+        width: 320px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 360px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 250px;
+        width: 330px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 500px;
+        margin-top: 380px;
+        display: grid;
+        columns: 1;
+        height: 1000px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 360px;
+    }
+    .happensnext{
+        margin-bottom: -200px;
+        margin-top: -200px;
+    }
+    .after{
+        margin-left: 15px;
+        margin-top: -15px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .nextsteps{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 384px) and (max-width:420px){
+
+    .contactpagefirstpart{
+        display: grid;
+        columns: 1;
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .RightSide1{
+        width: 360px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .venturing{
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 20px;
+        text-align: justify;
+        width: 350px;
+    }
+    .venturing1{
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 15px;
+
+        width: 320px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 360px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 250px;
+        width: 330px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 500px;
+        margin-top: 380px;
+        display: grid;
+        margin-left: 25px;
+        columns: 1;
+        height: 1000px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 360px;
+    }
+    .happensnext{
+        margin-bottom: -200px;
+        margin-top: -200px;
+    }
+    .after{
+        margin-left: 15px;
+        margin-top: -15px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .nextsteps{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width:480px){
+
+    .contactpagefirstpart{
+        display: grid;
+        columns: 1;
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .RightSide1{
+        width: 360px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .venturing{
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 20px;
+        width: 400px;
+        text-align: justify;
+    }
+    .venturing1{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 15px;
+
+        width: 400px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 360px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 330px;
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 500px;
+        margin-top: 380px;
+        display: grid;
+        columns: 1;
+        height: 1000px;
+        margin-left: 30px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 360px;
+    }
+    .happensnext{
+        margin-bottom: -200px;
+        margin-top: -200px;
+    }
+    .after{
+        margin-left: 15px;
+        margin-top: -15px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .nextsteps{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width:700px){
+
+    .contactpagefirstpart{
+        display: grid;
+        columns: 1;
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .RightSide1{
+        width: 360px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .venturing{
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 20px;
+        width: 400px;
+        text-align: justify;
+    }
+    .venturing1{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 15px;
+
+        width: 400px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 360px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 330px;
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 500px;
+        margin-top: 380px;
+        display: grid;
+        columns: 1;
+        height: 1000px;
+        margin-left: 30px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 360px;
+        margin-top: -200px;
+    }
+    .happensnext{
+        margin-bottom: -200px;
+        margin-top: -200px;
+    }
+    .after{
+        margin-left: 15px;
+        margin-top: -15px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .nextsteps{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 798px) and (max-width:884px){
+    .contactpagefirstpart{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .RightSide1{
+        width: 360px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .venturing{
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 20px;
+        width: 400px;
+        text-align: justify;
+    }
+    .venturing1{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 15px;
+        width: 400px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 360px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 300px;
+        width: 350px;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 500px;
+        margin-top: 380px;
+        display: flex;
+        columns: 2;
+        height: 400px;
+
+        margin-left: 30px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 360px;
+        margin-top: -200px;
+    }
+    .happensnext{
+        margin-bottom: -200px;
+        margin-top: -200px;
+    }
+    .after{
+        margin-left: 150px;
+        margin-top: -15px;
+        color: #015004;
+        font-size: 25px;
+    }
+    .nextsteps{
+        margin-left: 151px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:790px){
+
+    .contactpagefirstpart{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .RightSide1{
+        width: 360px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .venturing{
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 20px;
+        width: 400px;
+        text-align: justify;
+    }
+    .venturing1{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 15px;
+        width: 400px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 360px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 330px;
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 500px;
+        margin-top: 380px;
+        display: flex;
+        columns: 2;
+        height: 1000px;
+        margin-left: 30px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 360px;
+        margin-top: -200px;
+    }
+    .happensnext{
+        margin-bottom: -200px;
+        margin-top: -200px;
+    }
+    .after{
+        margin-left: 15px;
+        margin-top: -15px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .nextsteps{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 3100px) and (max-width:3250px){
+
+    .contactpagefirstpart{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 800px;
+    }
+    .RightSide1{
+        width: 1800px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #015004;
+        font-size: 80px;
+    }
+    .venturing{
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 70px;
+        width: 1500px;
+        text-align: justify;
+    }
+    .venturing1{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 50px;
+
+        width: 1500px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 1500px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 1000px;
+        width: 1500px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 1200px;
+        margin-top: 380px;
+        display: flex;
+        columns: 2;
+        margin-left: 30px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 1800px;
+    }
+    .happensnext{
+        margin-bottom: -200px;
+        margin-top: -50px;
+        width: 2000px;
+    }
+    .after{
+        margin-left: 15px;
+        margin-top: -15px;
+        color: #015004;
+        font-size: 82px;
+    }
+    .nextsteps{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 80px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width:1120px){
+    .contactpagefirstpart{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .RightSide1{
+        width: 700px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #015004;
+        font-size: 45px;
+    }
+    .venturing{
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 30px;
+        width: 600px;
+        text-align: justify;
+    }
+    .venturing1{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 25px;
+        width: 600px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 360px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 230px;
+        width: 400px;
+        margin-left: -10px;
+        margin-top: 250px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 500px;
+        margin-top: 380px;
+        display: flex;
+        columns: 2;
+        height: 500px;
+        margin-left: 30px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 360px;
+        margin-top: -200px;
+    }
+    .happensnext{
+        margin-bottom: -200px;
+        margin-top: -200px;
+    }
+    .after{
+        margin-left: 160px;
+        margin-top: -15px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .nextsteps{
+        margin-left: 150px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 2400px) and (max-width:2600px){
+
+    .contactpagefirstpart{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 800px;
+        margin-top: 100px;
+    }
+    .RightSide1{
+        width: 1800px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #015004;
+        font-size: 80px;
+    }
+    .venturing{
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 50px;
+        width: 1500px;
+        text-align: justify;
+    }
+    .venturing1{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 40px;
+
+        width: 1500px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 1500px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 800px;
+        width: 1000px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 1200px;
+        margin-top: 380px;
+        display: flex;
+        columns: 2;
+        margin-left: 30px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 1800px;
+    }
+    .happensnext{
+        margin-bottom: -200px;
+        margin-top: -50px;
+        width: 2000px;
+    }
+    .after{
+        margin-left: 15px;
+        margin-top: -15px;
+        color: #015004;
+        font-size: 60px;
+    }
+    .nextsteps{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 60px;
+    }
+}
+@media only screen and (min-width: 1900px) and (max-width:2350px){
+
+    .contactpagefirstpart{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 800px;
+    }
+    .RightSide1{
+        width: 1600px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #015004;
+        font-size: 80px;
+    }
+    .venturing{
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 40px;
+        width: 1200px;
+        text-align: justify;
+    }
+    .venturing1{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 40px;
+
+        width: 1200px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 1000px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 500px;
+        width: 700px;
+        margin-left: 10px;
+        margin-top: 200px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 1200px;
+        margin-top: 380px;
+        display: flex;
+        columns: 2;
+        margin-left: 30px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 1200px;
+    }
+    .happensnext{
+        margin-bottom: -200px;
+        margin-top: -50px;
+        width: 2000px;
+    }
+    .after{
+        margin-left: 15px;
+        margin-top: -15px;
+        color: #015004;
+        font-size: 60px;
+    }
+    .nextsteps{
+        margin-left: -20px;
+        margin-top: 40px;
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width:1500px) and (max-width:1700px){
+    .contactpagefirstpart{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .RightSide1{
+        width: 650px;
+        background-color: rgb(255, 255, 255);
+    }
+    .letscommence{
+        margin-top: 50px;
+        margin-left: 80px;
+        color: #015004;
+        font-size: 50px;
+    }
+    .venturing{
+        margin-top: 50px;
+        margin-left: 80px;
+        font-size: 20px;
+    }
+    .venturing1{
+        margin-top: 30px;
+        margin-left: 80px;
+        font-size: 20px;
+        color: #000000;
+        text-align: justify;
+    }
+    .LeftSide1{
+        width: 700px;
+        background-color:rgb(255, 255, 255);
+    }
+    .ImageContact1{
+        height: 400px;
+        width: 600px;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    .Secondpart{
+        background-color: #ffffff;
+        height: 500px;
+        margin-top: 100px;
+        display: flex;
+        columns: 2;
+        margin-bottom: -350px;
+    }
+    .formside{
+        background-color: rgb(255, 255, 255);
+        width: 650px;
+    }
+    .after{
+        margin-left: 80px;
+        margin-top: 40px;
+        color: #015004;
+        font-size: 35px;
+    }
+    .nextsteps{
+        margin-left: 80px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    
+    
+}
+
+
+

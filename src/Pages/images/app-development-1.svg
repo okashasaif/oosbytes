@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="61.828" height="88.83" viewBox="0 0 61.828 88.83">
+  <g id="Group_17560" data-name="Group 17560" transform="translate(-139 -1128)">
+    <g id="Rectangle_84" data-name="Rectangle 84" transform="translate(139 1128)" fill="none" stroke="#2e2e2e" stroke-linecap="round" stroke-width="5" stroke-dasharray="270 500">
+      <rect width="61.828" height="88.83" rx="10" stroke="none"></rect>
+      <rect x="2.5" y="2.5" width="56.828" height="83.83" rx="7.5" fill="none"></rect>
+    </g>
+    <path id="Path_12694" data-name="Path 12694" d="M15.093,30.237a2.022,2.022,0,0,1-1.435-.586L7.592,23.586a2.022,2.022,0,0,1,0-2.871l6.065-6.065a2.03,2.03,0,1,1,2.871,2.871l-4.65,4.63,4.65,4.63a2.022,2.022,0,0,1-1.435,3.457Zm20.217,0a2.022,2.022,0,0,1-1.435-3.457l4.65-4.63-4.65-4.63a2.03,2.03,0,1,1,2.871-2.871l6.065,6.065a2.022,2.022,0,0,1,0,2.871l-6.065,6.065A2.022,2.022,0,0,1,35.31,30.237ZM23.18,34.281a2.022,2.022,0,0,1-2.022-2.426L25.2,11.638a2.062,2.062,0,1,1,4.043.809L25.2,32.663a2.022,2.022,0,0,1-2.022,1.617Z" transform="translate(144.713 1153.534)" fill="#284d91"></path>
+    <rect id="Rectangle_85" data-name="Rectangle 85" width="17" height="5.5" rx="2.75" transform="translate(158 1138)" fill="#2e2e2e"></rect>
+    <rect id="Rectangle_87" data-name="Rectangle 87" width="5.5" height="5.5" rx="2.75" transform="translate(176 1138)" fill="#2e2e2e"></rect>
+  </g>
+</svg>

@@ -1,0 +1,1862 @@
+.ProjectsDone{
+    display: flex;
+    columns: 2;
+    background-color: rgb(246, 246, 246);
+    height: 400px;
+}
+.ProjectsDoneleft{
+    background-color:rgb(255, 255, 255);
+    width: 1000px;
+}
+.Showcase{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 40px
+    ;
+    color: #015004;
+}
+.showcase1{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(62, 62, 62);
+    margin-left: 100px;
+    width: 800px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.ProjectsDoneright{
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+}
+.portfoliofront{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: -20px;
+}
+.workglance{
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+    margin-top: 120px;
+}
+.headingwork{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+.buttonwork{
+    align-items: center;
+    text-align: center;
+}
+.buttonwork1{
+    margin-top: 15px;
+    background-color: #015004;
+    border: 0px solid;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+.straightlinework{
+    margin-top: 20px;
+    width: 1200px;
+    margin-left: 60px;
+    color: rgb(184, 184, 184);
+}
+.glance1{
+    background-color: #ffffff;
+    align-items: center;
+    height: 300px;
+    margin-top: 20px;
+    width: 1000px;
+    margin-left: 235px;
+    display: flex;
+    columns: 2;
+    margin-bottom: 200px;
+}
+.glance2{
+    background-color: #ffffff;
+    align-items: center;
+    height: 300px;
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: 235px;
+    display: flex;
+    columns: 2;
+}
+.glance1left{
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    width: 410px;
+}
+.glance1left1{
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    width: 410px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.okmeds{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.techniquesokmeds{
+    display: flex;
+    columns: 3;
+    margin-top: 20px;
+    gap: 20px;
+}
+.Energymanager{
+    margin-top: 20px;
+    color: #5f5f5f;
+}
+.logoreact{
+    width: 100px;
+    height: 100px;
+}
+.picture1{
+    height: 400px;
+    margin-left: 50px;
+    margin-top:100px;
+}
+.picture2{
+    height: 400px;
+    margin-top: 200px;
+    margin-left: -200px;
+}
+@media only screen and (min-width: 360px) and (max-width:375px){
+    .ProjectsDone{
+        display: grid;
+        columns: 1;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 330px;
+    }
+    .Showcase{
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 18px;
+        color: #015004;
+    }
+    .showcase1{
+        width:330px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+    }
+    .portfoliofront{
+        width: 330px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 1000px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 500px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 250px;
+        margin-left: 60px;
+        color: rgb(184, 184, 184);
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 20px;
+        width: 330px;
+        margin-left: 30px;
+        display: grid;
+        columns: 1;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 50px;
+        width: 300px;
+        margin-left: 30px;
+        display: grid;
+        columns: 1;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 330px;
+    }
+    .glance1left1{
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -800px;
+        margin-left: 00px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 20px;
+        margin-left: -20px;
+        gap: 20px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 330px;
+    }
+    .logoreact{
+        width: 100px;
+        height: 100px;
+    }
+    .picture1{
+        height: 200px;
+        width: 330px;
+        margin-left: -20px;
+        margin-top:2px;
+    }
+    .picture2{
+        height: 200px;
+        width: 330px;
+        margin-top: 400px;
+        margin-left: -20px;
+    }
+
+
+}
+@media only screen and (min-width: 384px) and (max-width:420px){
+    .ProjectsDone{
+        display: grid;
+        columns: 1;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 330px;
+    }
+    .Showcase{
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 18px;
+        color: #015004;
+    }
+    .showcase1{
+        width:330px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+    }
+    .portfoliofront{
+        width: 330px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 1000px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 500px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 250px;
+        margin-left: 60px;
+        color: rgb(184, 184, 184);
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 20px;
+        width: 330px;
+        margin-left: 30px;
+        display: grid;
+        columns: 1;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 50px;
+        width: 300px;
+        margin-left: 30px;
+        display: grid;
+        columns: 1;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 330px;
+    }
+    .glance1left1{
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -800px;
+        margin-left: 00px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 20px;
+        margin-left: -20px;
+        gap: 20px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 330px;
+    }
+    .logoreact{
+        width: 100px;
+        height: 100px;
+    }
+    .picture1{
+        height: 200px;
+        width: 330px;
+        margin-left: -20px;
+        margin-top:2px;
+    }
+    .picture2{
+        height: 200px;
+        width: 330px;
+        margin-top: 400px;
+        margin-left: -20px;
+    }
+
+
+
+}
+@media only screen and (min-width: 420px) and (max-width:480px){
+    .ProjectsDone{
+        display: grid;
+        columns: 1;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 330px;
+    }
+    .Showcase{
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 18px;
+        color: #015004;
+    }
+    .showcase1{
+        width:330px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 40px;
+        font-size: 12px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+    }
+    .portfoliofront{
+        width: 330px;
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 1000px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 500px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 300px;
+        margin-left: 65px;
+        color: rgb(184, 184, 184);
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 20px;
+        width: 330px;
+        margin-left: 30px;
+        display: grid;
+        columns: 1;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 50px;
+        width: 300px;
+        margin-left: 30px;
+        display: grid;
+        columns: 1;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 330px;
+    }
+    .glance1left1{
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -800px;
+        margin-left: 00px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 20px;
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 330px;
+    }
+    .logoreact{
+        width: 100px;
+        height: 100px;
+    }
+    .picture1{
+        height: 200px;
+        width: 330px;
+        margin-left: 10px;
+        margin-top:2px;
+    }
+    .picture2{
+        height: 200px;
+        width: 330px;
+        margin-top: 400px;
+        margin-left: 10px;
+    }
+
+
+
+}
+@media only screen and (min-width: 481px) and (max-width:700px){
+    .ProjectsDone{
+        display: grid;
+        columns: 1;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 330px;
+    }
+    .Showcase{
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 18px;
+        color: #015004;
+    }
+    .showcase1{
+        width:330px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 40px;
+        font-size: 12px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+    }
+    .portfoliofront{
+        width: 330px;
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 1000px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 500px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 300px;
+        margin-left: 65px;
+        color: rgb(184, 184, 184);
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 20px;
+        width: 330px;
+        margin-left: 30px;
+        display: grid;
+        columns: 1;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 50px;
+        width: 300px;
+        margin-left: 30px;
+        display: grid;
+        columns: 1;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 330px;
+    }
+    .glance1left1{
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -800px;
+        margin-left: 00px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 20px;
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 330px;
+    }
+    .logoreact{
+        width: 100px;
+        height: 100px;
+    }
+    .picture1{
+        height: 200px;
+        width: 330px;
+        margin-left: 10px;
+        margin-top:2px;
+    }
+    .picture2{
+        height: 200px;
+        width: 330px;
+        margin-top: 400px;
+        margin-left: 10px;
+    }
+
+
+
+}
+@media only screen and (min-width: 768px) and (max-width:790px){
+    .ProjectsDone{
+        display: grid;
+        columns: 1;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 780px;
+    }
+    .Showcase{
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 32px;
+        color: #015004;
+    }
+    .showcase1{
+        width:700px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+    }
+    .portfoliofront{
+        width: 330px;
+        margin-top: 00px;
+        margin-left: 200px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 400px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 620px;
+        margin-left: 65px;
+        color: rgb(184, 184, 184);
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 20px;
+        width: 330px;
+        margin-left: 50px;
+        display: flex;
+        columns: 2;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 50px;
+        width: 300px;
+        margin-left: 30px;
+        display: flex;
+        columns: 2;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 330px;
+    }
+    .glance1left1{
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -200px;
+        margin-left: 10px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 20px;
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 330px;
+    }
+    .logoreact{
+        width: 100px;
+        height: 100px;
+    }
+    .picture1{
+        height: 200px;
+        width: 330px;
+        margin-left: 10px;
+        margin-top:2px;
+    }
+    .picture2{
+        height: 200px;
+        width: 330px;
+        margin-top:-200px;
+        margin-left: 10px;
+    }
+
+
+
+}
+@media only screen and (min-width: 798px) and (max-width:884px){
+    .ProjectsDone{
+        display: grid;
+        columns: 1;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 780px;
+    }
+    .Showcase{
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 32px;
+        color: #015004;
+    }
+    .showcase1{
+        width:700px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+    }
+    .portfoliofront{
+        width: 330px;
+        margin-top: 00px;
+        margin-left: 200px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 400px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 620px;
+        margin-left: 65px;
+        color: rgb(184, 184, 184);
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 20px;
+        width: 330px;
+        margin-left: 50px;
+        display: flex;
+        columns: 2;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 50px;
+        width: 300px;
+        margin-left: 30px;
+        display: flex;
+        columns: 2;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 330px;
+    }
+    .glance1left1{
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -200px;
+        margin-left: 10px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 20px;
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 330px;
+    }
+    .logoreact{
+        width: 100px;
+        height: 100px;
+    }
+    .picture1{
+        height: 200px;
+        width: 330px;
+        margin-left: 10px;
+        margin-top:2px;
+    }
+    .picture2{
+        height: 200px;
+        width: 330px;
+        margin-top:-200px;
+        margin-left: 10px;
+    }
+
+
+
+}
+@media only screen and (min-width: 1000px) and (max-width:1120px){
+    .ProjectsDone{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 780px;
+    }
+    .Showcase{
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 25px;
+        color: #015004;
+    }
+    .showcase1{
+        width:600px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+    }
+    .portfoliofront{
+        width: 330px;
+        margin-top: 00px;
+        margin-left: -100px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+        margin-top: -200px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 400px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 620px;
+        margin-left: 65px;
+        color: rgb(184, 184, 184);
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 20px;
+        width: 900px;
+        margin-left: 50px;
+        display: flex;
+        columns: 2;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 50px;
+        width: 900px;
+        margin-left: 30px;
+        display: flex;
+        columns: 2;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 330px;
+    }
+    .glance1left1{
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -200px;
+        margin-left: 50px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 20px;
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .Energymanager{
+        margin-top: 25px;
+        color: #5f5f5f;
+        width: 450px;
+    }
+    .logoreact{
+        width: 100px;
+        height: 100px;
+    }
+    .picture1{
+        height: 250px;
+        width: 400px;
+        margin-left: 100px;
+        margin-top:2px;
+    }
+    .picture2{
+        height: 250px;
+        width: 400px;
+        margin-top:-200px;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 3100px) and (max-width:3250px){
+    .ProjectsDone{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 1800px;
+    }
+    .Showcase{
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 90px;
+        color: #015004;
+    }
+    .showcase1{
+        width:1900px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 10px;
+        line-height: 60px;
+        font-size: 50px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+    }
+    .portfoliofront{
+        width: 850px;
+        margin-top: 00px;
+        margin-left: 200px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 1500px;
+        margin-top: 700px;
+        margin-bottom: 700px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 100px;
+        margin-top: 400px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 150px;
+        width: 400px;
+        border-radius: 50px;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 620px;
+        margin-left: 65px;
+        color: rgb(255, 0, 0);
+        display: none;
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 20px;
+        width: 1000px;
+        margin-left: 50px;
+        display: flex;
+        columns: 2;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 900px;
+        width: 1000px;
+        margin-left: 30px;
+        display: flex;
+        gap: 200px;
+        columns: 2;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 1400px;
+    }
+    .glance1left1{
+        height: 800px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -200px;
+        margin-left: 10px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 80px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 20px;
+        margin-left: 10px;
+        gap: 200px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 1600px;
+        font-size: 70px;
+    }
+    .logoreact{
+        width: 100px;
+        height: 100px;
+    }
+    .picture1{
+        height: 600px;
+        width: 1100px;
+        margin-left: 500px;
+        margin-top:290px;
+    }
+    .picture2{
+        height: 600px;
+        width: 1100px;
+        margin-left: 50px;
+        margin-top:-250px;
+    }
+}
+
+@media only screen and (min-width: 2400px) and (max-width:2600px){
+    .ProjectsDone{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 1400px;
+    }
+    .Showcase{
+        margin-top: 150px;
+        margin-left: 10px;
+        font-size: 60px;
+        color: #015004;
+    }
+    .showcase1{
+        width:1500px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 10px;
+        line-height: 60px;
+        font-size: 40px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 250px;
+    }
+    .portfoliofront{
+        width: 600px;
+        margin-top: 100px;
+        margin-left: 300px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 1500px;
+        margin-top: 600px;
+        margin-bottom: 700px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 100px;
+        margin-top: 400px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 150px;
+        width: 400px;
+        border-radius: 50px;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 620px;
+        margin-left: 65px;
+        color: rgb(255, 0, 0);
+        display: none;
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 120px;
+        width: 1000px;
+        margin-left: 50px;
+        display: flex;
+        columns: 2;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 900px;
+        width: 100px;
+        margin-left: -150px;
+        display: flex;
+        gap: 200px;
+        columns: 2;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 1000px;
+    }
+    .glance1left1{
+        height: 800px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -200px;
+        margin-left: 10px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 80px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 20px;
+        margin-left: 10px;
+        gap: 200px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 1100px;
+        font-size: 50px;
+    }
+    .logoreact{
+        width: 300px;
+        height: 200px;
+    }
+    .picture1{
+        height: 600px;
+        width: 1000px;
+        margin-left: 250px;
+        margin-top:390px;
+    }
+    .picture2{
+        height: 600px;
+        width: 1100px;
+        margin-left: 250px;
+        margin-top:-250px;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (max-width:2300px){
+    .ProjectsDone{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 1250px;
+    }
+    .Showcase{
+        margin-top: 150px;
+        margin-left: 10px;
+        font-size: 45px;
+        color: #015004;
+    }
+    .showcase1{
+        width:1250px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 10px;
+        line-height: 60px;
+        font-size: 40px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 250px;
+    }
+    .portfoliofront{
+        width: 600px;
+        margin-top: 100px;
+        margin-left: 00px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 1500px;
+        margin-top: 600px;
+        margin-bottom: 700px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 100px;
+        margin-top: 400px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 150px;
+        width: 400px;
+        border-radius: 50px;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 620px;
+        margin-left: 65px;
+        color: rgb(255, 0, 0);
+        display: none;
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 120px;
+        width: 700px;
+        margin-left: 50px;
+        display: flex;
+        columns: 2;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 900px;
+        width: 100px;
+        margin-left: -150px;
+        display: flex;
+        gap: 200px;
+        columns: 2;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+    }
+    .glance1left1{
+        height: 800px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -200px;
+        margin-left: -200px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 80px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 10px;
+        margin-left: 10px;
+        gap: 100px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 1000px;
+        font-size: 50px;
+    }
+
+    .logoreact{
+        width: 300px;
+        height: 200px;
+    }
+    .picture1{
+        height: 500px;
+        width: 900px;
+        margin-left: 350px;
+        margin-top:390px;
+    }
+    .picture2{
+        height: 600px;
+        width: 1000px;
+        margin-left: 150px;
+        margin-top:-250px;
+    }
+}
+
+@media only screen and (min-width: 2301px) and (max-width:2399px){
+    .ProjectsDone{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 1250px;
+    }
+    .Showcase{
+        margin-top: 150px;
+        margin-left: 10px;
+        font-size: 45px;
+        color: #015004;
+    }
+    .showcase1{
+        width:1250px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 10px;
+        line-height: 60px;
+        font-size: 40px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 250px;
+    }
+    .portfoliofront{
+        width: 600px;
+        margin-top: 100px;
+        margin-left: 00px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 1500px;
+        margin-top: 600px;
+        margin-bottom: 700px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 100px;
+        margin-top: 400px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 150px;
+        width: 400px;
+        border-radius: 50px;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 620px;
+        margin-left: 65px;
+        color: rgb(255, 0, 0);
+        display: none;
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 120px;
+        width: 700px;
+        margin-left: 50px;
+        display: flex;
+        columns: 2;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 900px;
+        width: 100px;
+        margin-left: -150px;
+        display: flex;
+        gap: 200px;
+        columns: 2;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+    }
+    .glance1left1{
+        height: 800px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -200px;
+        margin-left: -200px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 80px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 10px;
+        margin-left: 10px;
+        gap: 100px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 1000px;
+        font-size: 50px;
+    }
+
+    .logoreact{
+        width: 300px;
+        height: 200px;
+    }
+    .picture1{
+        height: 500px;
+        width: 900px;
+        margin-left: 350px;
+        margin-top:390px;
+    }
+    .picture2{
+        height: 600px;
+        width: 1000px;
+        margin-left: 150px;
+        margin-top:-250px;
+    }
+}
+
+@media only screen and (min-width: 1900px) and (max-width:1999px){
+    .ProjectsDone{
+        display: flex;
+        columns: 2;
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 1250px;
+    }
+    .Showcase{
+        margin-top: 150px;
+        margin-left: 10px;
+        font-size: 45px;
+        color: #015004;
+    }
+    .showcase1{
+        width:1250px ;
+        margin-top: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 10px;
+        line-height: 60px;
+        font-size: 40px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 250px;
+    }
+    .portfoliofront{
+        width: 600px;
+        margin-top: 100px;
+        margin-left: 00px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 1500px;
+        margin-top: 600px;
+        margin-bottom: 700px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 100px;
+        margin-top: 400px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 150px;
+        width: 400px;
+        border-radius: 50px;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 620px;
+        margin-left: 65px;
+        color: rgb(255, 0, 0);
+        display: none;
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 120px;
+        width: 700px;
+        margin-left: 50px;
+        display: flex;
+        columns: 2;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 900px;
+        width: 100px;
+        margin-left: -150px;
+        display: flex;
+        gap: 200px;
+        columns: 2;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+    }
+    .glance1left1{
+        height: 800px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 330px;
+        margin-top: -200px;
+        margin-left: -200px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 80px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 10px;
+        margin-left: 10px;
+        gap: 100px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+        width: 1000px;
+        font-size: 50px;
+    }
+
+    .logoreact{
+        width: 300px;
+        height: 200px;
+    }
+    .picture1{
+        height: 500px;
+        width: 800px;
+        margin-left: 350px;
+        margin-top:390px;
+    }
+    .picture2{
+        height: 600px;
+        width: 1000px;
+        margin-left: 150px;
+        margin-top:-250px;
+    }
+}
+@media only screen and (min-width:1500px) and (max-width:1700px){
+    .ProjectsDone{
+        display: flex;
+        columns: 2;
+        background-color: rgb(246, 246, 246);
+        height: 400px;
+    }
+    .ProjectsDoneleft{
+        background-color:rgb(255, 255, 255);
+        width: 1000px;
+    }
+    .Showcase{
+        margin-top: 100px;
+        margin-left: 100px;
+        font-size: 40px
+        ;
+        color: #015004;
+    }
+    .showcase1{
+        margin-top: 20px;
+        padding-bottom: 20px;
+        color: rgb(62, 62, 62);
+        margin-left: 100px;
+        width: 800px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .ProjectsDoneright{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+    }
+    .portfoliofront{
+        width: 300px;
+        margin-top: 50px;
+        margin-left: -20px;
+    }
+    .workglance{
+        background-color: rgb(255, 255, 255);
+        height: 1000px;
+        margin-top: 120px;
+    }
+    .headingwork{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+    }
+    .buttonwork{
+        align-items: center;
+        text-align: center;
+    }
+    .buttonwork1{
+        margin-top: 15px;
+        background-color: #015004;
+        border: 0px solid;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .straightlinework{
+        margin-top: 20px;
+        width: 1200px;
+        margin-left: 60px;
+        color: rgb(184, 184, 184);
+        display: none;
+    }
+    .glance1{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 20px;
+        width: 1000px;
+        margin-left: 235px;
+        display: flex;
+        columns: 2;
+        margin-bottom: 200px;
+    }
+    .glance2{
+        background-color: #ffffff;
+        align-items: center;
+        height: 300px;
+        margin-top: 50px;
+        width: 1000px;
+        margin-left: 235px;
+        display: flex;
+        columns: 2;
+    }
+    .glance1left{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 410px;
+    }
+    .glance1left1{
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        width: 410px;
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+    .okmeds{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .techniquesokmeds{
+        display: flex;
+        columns: 3;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .Energymanager{
+        margin-top: 20px;
+        color: #5f5f5f;
+    }
+    .logoreact{
+        width: 100px;
+        height: 100px;
+    }
+    .picture1{
+        height: 400px;
+        margin-left: 50px;
+        margin-top:100px;
+    }
+    .picture2{
+        height: 400px;
+        margin-top: 200px;
+        margin-left: -200px;
+    }
+}

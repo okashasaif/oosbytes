@@ -1,0 +1,1000 @@
+.Servicesmain{
+    background: linear-gradient(to right, #ffffff, #808281);
+    height: 400px;
+    margin-right: 80px;
+    margin-left: 80px;
+    border-radius: 40px;
+    margin-top: 30px;
+    
+}
+.Webappstext{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 140px;
+    padding-top: 100px;
+    background: transparent;
+}
+.webappstext1{
+    margin-left: 140px;
+    width: 600px;
+    line-height: 25px;
+    margin-top: 10px;
+    background: transparent;
+    color: rgb(56, 56, 56);
+}
+.Solutionsweoffer{
+    margin-top: 50px;
+    height: 600px;
+
+}
+.solutionsheading{
+    left: 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+
+
+}
+.cloums4-1{
+    height: 200px;
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+    columns: 4;
+}
+.columns4{
+    height: 150px;
+    border-radius: 25px;
+    width: 250px;
+    box-shadow: 0 0 10px #000000;
+    margin-left: 50px;
+    text-align: center;
+}
+.insidesolution{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.cloums4-2{
+    height: 200px;
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    columns: 4;
+}
+@media only screen and (min-width: 360px) and (max-width:375px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 220px;
+        margin-right: 80px;
+        margin-left: 14px;
+        width: 330px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        margin-left: 14px;
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 320px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        height: 1200px;
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 30px;
+        display: grid;
+        columns: 1;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 250px;
+        box-shadow: 0 0 10px #b5b5b5;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 500px;
+        gap: 30px;
+        display: grid;
+        margin-bottom: 800px;
+        columns: 1;
+    }
+
+}
+@media only screen and (min-width: 380px) and (max-width:420px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 220px;
+        margin-right: 80px;
+        margin-left: 14px;
+        width: 330px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        margin-left: 14px;
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 320px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        height: 1200px;
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 30px;
+        display: grid;
+        columns: 1;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 250px;
+        box-shadow: 0 0 10px #b5b5b5;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 500px;
+        gap: 30px;
+        display: grid;
+        margin-bottom: 800px;
+        columns: 1;
+    }
+
+}
+@media only screen and (min-width: 420px) and (max-width:480px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 220px;
+        margin-right: 80px;
+        margin-left: 50px;
+        width: 330px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        margin-left: 14px; 
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 320px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        height: 1200px;
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 30px;
+        margin-left: 35px;
+        display: grid;
+        columns: 1;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 250px;
+        box-shadow: 0 0 10px #b5b5b5;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 550px;
+        gap: 30px;
+        display: grid;
+        margin-left: 35px;
+        margin-bottom: 800px;
+        columns: 1;
+    }
+
+}
+@media only screen and (min-width: 481px) and (max-width:700px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 220px;
+        margin-right: 80px;
+        margin-left: 50px;
+        width: 330px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        margin-left: 14px; 
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 320px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        height: 1200px;
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 30px;
+        margin-left: 35px;
+        display: grid;
+        columns: 1;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 250px;
+        box-shadow: 0 0 10px #b5b5b5;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 550px;
+        gap: 30px;
+        display: grid;
+        margin-left: 35px;
+        margin-bottom: 800px;
+        columns: 1;
+    }
+
+}
+@media only screen and (min-width: 790px) and (max-width:884px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 250px;
+        margin-right: 80px;
+        margin-left: 25px;
+        width: 750px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        margin-left: 14px; 
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 600px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        height: 1200px;
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 30px;
+        margin-left: 35px;
+        display: grid;
+        columns: 1;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 250px;
+        box-shadow: 0 0 10px #000000;
+        margin-left: 220px;
+        text-align: center;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 550px;
+        gap: 30px;
+        display: grid;
+        margin-left: 35px;
+        margin-bottom: 800px;
+        columns: 1;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width:790px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 220px;
+        margin-right: 80px;
+        margin-left: 30px;
+        width: 700px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        margin-left: 14px; 
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 500px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        height: 1200px;
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 30px;
+        margin-left: 180px;
+        display: grid;
+        columns: 1;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 250px;
+        box-shadow: 0 0 10px #000000;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 550px;
+        gap: 30px;
+        display: grid;
+        margin-left: 180px;
+        margin-bottom: 800px;
+        columns: 1;
+    }
+
+}
+@media only screen and (min-width: 1000px) and (max-width:1120px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 220px;
+        margin-right: 80px;
+        margin-left: 100px;
+        width: 800px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin-left: 14px; 
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 500px;
+        line-height: 25px;
+        margin-top: px;
+        background: transparent;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        height: 1200px;
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 0px;
+        margin-left: -10px;
+        display: flex;
+        columns: 4;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 200px;
+        box-shadow: 0 0 10px #b5b5b5;
+        margin-left: 50px;
+        box-shadow: 0 0 50px #0e0e0e;
+        text-align: center;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 50px;
+        gap: 0px;
+        display: flex;
+        margin-left: -10px;
+        margin-bottom: 800px;
+        columns: 4;
+    }
+
+}
+@media only screen and (min-width: 3100px) and (max-width:3250px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 450px;
+        margin-right: 80px;
+        margin-left: 300px;
+        width: 2500px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+        box-shadow: 0 0 100px #ffffff;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 50px;
+        margin-left: 14px; 
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 1500px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        font-size: 50px;
+        line-height: 50px;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        font-size: 50px;
+        height: 1200px;
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 50px;
+        margin-left: 35px;
+        display: flex;
+        columns: 4;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 500px;
+        box-shadow: 0 0 10px #050505;
+        margin-left: 150px;
+        text-align: center;
+        height: 300px;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 200px;
+        gap: 50px;
+        margin-left: 35px;
+        display: flex;
+        columns: 4;
+    }
+
+}
+@media only screen and (min-width: 2400px) and (max-width:2600px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 400px;
+        margin-right: 80px;
+        margin-left: 150px;
+        width: 2200px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+        box-shadow: 0 0 100px #ffffff;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 45px;
+        margin-left: 14px; 
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 1500px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        font-size: 50px;
+        line-height: 50px;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        font-size: 50px;
+        height: 1200px;
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 20px;
+        margin-left: -40px;
+        display: flex;
+        columns: 4;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 450px;
+        box-shadow: 0 0 10px #050505;
+        margin-left: 150px;
+        text-align: center;
+        height: 300px;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 45px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 200px;
+        gap: 20px;
+        margin-left: -40px;
+        display: flex;
+        columns: 4;
+    }
+
+}
+@media only screen and (min-width: 2000px) and (max-width:2300px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 400px;
+        margin-right: 80px;
+        margin-left: 200px;
+        width: 1600px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+        box-shadow: 0 0 100px #ffffff;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        margin-left: 14px; 
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 1500px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        font-size: 40px;
+        line-height: 50px;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        font-size: 50px;
+        height: 1200px;
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 0px;
+        margin-left: -40px;
+        display: flex;
+        columns: 4;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 350px;
+        box-shadow: 0 0 10px #050505;
+        margin-left: 150px;
+        text-align: center;
+        height: 300px;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 200px;
+        gap: 0px;
+        margin-left: -40px;
+        display: flex;
+        columns: 4;
+    }
+
+}
+@media only screen and (min-width: 2301px) and (max-width:2399px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 400px;
+        margin-right: 80px;
+        margin-left: 300px;
+        width: 1600px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+        box-shadow: 0 0 100px #ffffff;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        margin-left: 14px; 
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 1500px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        font-size: 40px;
+        line-height: 50px;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        font-size: 50px;
+        height: 1200px;
+        
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 0px;
+        margin-left: 50px;
+        display: flex;
+        columns: 4;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 350px;
+        box-shadow: 0 0 10px #050505;
+        margin-left: 150px;
+        text-align: center;
+        height: 300px;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 200px;
+        gap: 0px;
+        margin-left: 50px;
+        display: flex;
+        columns: 4;
+    }
+
+}
+@media only screen and (min-width: 1900px) and (max-width:1999px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #5b5b5b);
+        height: 400px;
+        margin-right: 80px;
+        margin-left: 150px;
+        width: 1600px;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+        box-shadow: 0 0 100px #ffffff;
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        margin-left: 14px; 
+        padding-top: 10px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 14px;
+        width: 1500px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        font-size: 40px;
+        line-height: 50px;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        font-size: 50px;
+        height: 1200px;
+        
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 0px;
+        margin-left: -120px;
+        display: flex;
+        columns: 4;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 350px;
+        box-shadow: 0 0 10px #050505;
+        margin-left: 150px;
+        text-align: center;
+        height: 300px;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 200px;
+        gap: 0px;
+        margin-left: -120px;
+        display: flex;
+        columns: 4;
+    }
+
+}
+@media only screen and (min-width:1500px) and (max-width:1700px){
+    .Servicesmain{
+        background: linear-gradient(to right, #ffffff, #808281);
+        height: 400px;
+        margin-right: 80px;
+        margin-left: 80px;
+        border-radius: 40px;
+        margin-top: 30px;
+        
+    }
+    .Webappstext{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        margin-left: 140px;
+        padding-top: 100px;
+        background: transparent;
+    }
+    .webappstext1{
+        margin-left: 140px;
+        width: 600px;
+        line-height: 25px;
+        margin-top: 10px;
+        background: transparent;
+        color: rgb(56, 56, 56);
+    }
+    .Solutionsweoffer{
+        margin-top: 50px;
+        height: 600px;
+    
+    }
+    .solutionsheading{
+        left: 50%;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    
+    
+    }
+    .cloums4-1{
+        height: 200px;
+        margin-top: 50px;
+        gap: 30px;
+        display: flex;
+        columns: 4;
+    }
+    .columns4{
+        height: 150px;
+        border-radius: 25px;
+        width: 250px;
+        box-shadow: 0 0 10px #000000;
+        margin-left: 100px;
+        text-align: center;
+    }
+    .insidesolution{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .cloums4-2{
+        height: 200px;
+        margin-top: 20px;
+        gap: 30px;
+        display: flex;
+        columns: 4;
+    }
+}
+
+
+
+

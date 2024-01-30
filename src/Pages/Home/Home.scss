@@ -1,0 +1,3550 @@
+.HomeFirstPart{
+  height: 500px;
+  display: flex;
+  columns: 2;
+  background-image: url(../images/banner-bgHome.png);
+}
+.FirstPartleft{
+  background-color: transparent;
+  width: 1200px;
+}
+.animationBytes{
+  color:#015004;
+  margin-left: 330px;
+  margin-top: -105px;
+  font-size: 80px;
+}
+.animationBytes1{
+  color:#000000;
+  margin-left: 35px;
+  margin-top: 100px;
+  font-size: 80px;
+}
+.writing-element {
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0px solid #015004;
+  font-size: 5px;
+  padding: 10px;
+  animation: writeAnimation 3s steps(40) forwards; /* Animation properties */
+}
+
+@keyframes writeAnimation {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 900px;
+  }
+}
+.FirstPartright{
+  width: 450px;
+}
+.imagehome{
+  width: 450px;
+  background: transparent;
+  margin-top: 30px;
+  margin-left: -150px;
+
+}
+.Innovative{
+  margin-left: 52px;
+  margin-top: -20px;
+  font-size: 20px;
+}
+.WhatweProvide{
+  background-color: #ffffff;
+  height: 500px;
+  margin-bottom: -300px;
+}
+.wwphead1{
+  margin-left: 550px;
+  font-size: 30px;
+  margin-top: 90px;
+}
+.blocks{
+  columns: 3;
+  display: flex;
+  height: 400px;
+  margin-top: 40px;
+  gap: 20px;
+  margin-left: 70px;
+}
+.UIUXblock{
+  background-color: rgb(255, 255, 255);
+  height: 300px;width: 400px;
+  border-radius: 20px;
+  transition: transform 0.3s ease ; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  .insidepicture{
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+ 
+  .firsttext{
+    margin-left: 120px;
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .secondtext{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 55px;
+    margin-left: 0px;
+    text-align: justify;
+  }
+  .firstextUIUX{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .firstextUIUX1{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 35px;
+
+  }
+  .firstextUIUX2{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 105px;
+  }
+  &:hover {
+    transform: scale(1.1);
+   
+    
+  }
+}
+
+.insideUIUXblock{
+  display: grid;
+  columns: 1;
+  align-items: center;
+}
+
+.Webblock{
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  transition: transform 0.3s ease ; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  .insidepicture1{
+    align-items: center;
+    margin-left: 152px;
+    margin-top: 20px;
+  }
+ 
+  .firsttext1{
+    margin-left: 90px;
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .secondtext1{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: justify;
+  }
+  .firstextweb{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .firstextweb1{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 18px;
+
+  }
+  .firstextweb3{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 18px;
+
+  }
+  .firstextweb2{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 150px;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.Appblock{
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  transition: transform 0.3s ease ; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  .insidepicture2{
+    align-items: center;
+    margin-left: 162px;
+    margin-top: 20px;
+  }
+ 
+  .firsttext2{
+    margin-left: 90px;
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .secondtext2{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: justify;
+  }
+  .firstextapp{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .firstextapp1{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 300px;
+
+  }
+  .firstextapp2{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 75px;
+  }
+  .firstextapp3{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 125px;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+@media only screen and (min-width: 360px) and (max-width:375px){
+  .HomeFirstPart{
+    height: 500px;
+    width: 330px;
+    display: grid;
+    columns: 1;
+    background-image: url(../images/banner-bgHome.png);
+  }
+  .FirstPartleft{
+    background-color: transparent;
+    width: 330px;
+  }
+  .animationBytes{
+    color:#015004;
+    margin-left: 150px;
+    margin-top: -45px;
+    font-size: 35px;
+  }
+  .animationBytes1{
+    color:#000000;
+    margin-left: 022px;
+    margin-top: 50px;
+    font-size: 35px;
+  }
+  .writing-element {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0px solid #015004;
+    font-size: 5px;
+    padding: 10px;
+    animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+  }
+
+  
+  @keyframes writeAnimation {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 350px;
+    }
+  }
+  .FirstPartright{
+    background-color: transparent;
+    width: 330px;
+  }
+  .imagehome{
+    width: 330px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+  }
+  .Innovative{
+    margin-left: 22px;
+    margin-top: 2px;
+    font-size: 14px;
+  }
+  .WhatweProvide{
+    background-color: #ffffff;
+    height: 1200px;
+    margin-bottom: -300px;
+  }
+  .wwphead1{
+    margin-left: 35px;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .blocks{
+    columns: 1;
+    display: grid;
+    height: 400px;
+    margin-top: 40px;
+    gap: 100px;
+    margin-left: 12px;
+  }
+  .UIUXblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;width: 330px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .insidepicture{
+      align-items: center;
+      margin-left: 115px;
+      margin-top: 20px;
+    }
+   
+    .firsttext{
+      margin-left: 100px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext{
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 55px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextUIUX{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 15px;
+    }
+    .firstextUIUX1{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 35px;
+  
+    }
+    .firstextUIUX2{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 105px;
+    }
+    &:hover {
+      transform: scale(1.1);
+     
+      
+    }
+  }
+  
+  .insideUIUXblock{
+    display: grid;
+    columns: 1;
+    align-items: center;
+  }
+  
+  .Webblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 330px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+    .insidepicture1{
+      align-items: center;
+      margin-left: 115px;
+      margin-top: 20px;
+    }
+   
+    .firsttext1{
+      margin-left: 80px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext1{
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextweb{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 25px;
+    }
+    .firstextweb1{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 18px;
+  
+    }
+    .firstextweb3{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 18px;
+  
+    }
+    .firstextweb2{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 130px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .Appblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;width: 330px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .insidepicture2{
+      align-items: center;
+      margin-left: 128px;
+      margin-top: 20px;
+    }
+   
+    .firsttext2{
+      margin-left: 70px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext2{
+      font-size: 15px;
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextapp{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+    .firstextapp1{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 50px;
+      width: 300px;
+  
+    }
+    .firstextapp2{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 75px;
+    }
+    .firstextapp3{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 110px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }}}    
+@media only screen and (min-width: 384px) and (max-width:420px){
+        .HomeFirstPart{
+          height: 500px;
+          width: 330px;
+          display: grid;
+          columns: 1;
+          background-image: url(../images/banner-bgHome.png);
+        }
+        .FirstPartleft{
+          background-color: transparent;
+          width: 330px;
+        }
+        .animationBytes{
+          color:#015004;
+          margin-left: 150px;
+          margin-top: -45px;
+          font-size: 35px;
+        }
+        .animationBytes1{
+          color:#000000;
+          margin-left: 022px;
+          margin-top: 50px;
+          font-size: 35px;
+        }
+        .writing-element {
+          white-space: nowrap;
+          overflow: hidden;
+          border-right: 0px solid #015004;
+          font-size: 5px;
+          padding: 10px;
+          animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+        }
+      
+        
+        @keyframes writeAnimation {
+          0% {
+            width: 0px;
+          }
+          100% {
+            width: 350px;
+          }
+        }
+        .FirstPartright{
+          background-color: transparent;
+          width: 330px;
+        }
+        .imagehome{
+          width: 330px;
+          background-color: transparent;
+          margin-top: 20px;
+          margin-left: 20px;
+        
+        }
+        .Innovative{
+          margin-left: 22px;
+          margin-top: 2px;
+          font-size: 14px;
+        }
+        .WhatweProvide{
+          background-color: #ffffff;
+          height: 1200px;
+          margin-bottom: -300px;
+        }
+        .wwphead1{
+          margin-left: 47px;
+          font-size: 30px;
+          margin-top: 50px;
+        }
+        .blocks{
+          columns: 1;
+          display: grid;
+          height: 400px;
+          margin-top: 40px;
+          gap: 100px;
+          margin-left: 35px;
+        }
+        .UIUXblock{
+          background-color: rgb(255, 255, 255);
+          height: 300px;width: 330px;
+          border-radius: 20px;
+          transition: transform 0.3s ease ; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          .insidepicture{
+            align-items: center;
+            margin-left: 115px;
+            margin-top: 20px;
+          }
+         
+          .firsttext{
+            margin-left: 100px;
+            font-size: 22px;
+            font-weight: 900;
+            margin-top: 20px;
+          }
+          .secondtext{
+            font-size: 20px;
+            font-weight: bolder;
+            margin-top: 55px;
+            margin-left: 0px;
+            text-align: justify;
+          }
+          .firstextUIUX{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 15px;
+          }
+          .firstextUIUX1{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 35px;
+        
+          }
+          .firstextUIUX2{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 105px;
+          }
+          &:hover {
+            transform: scale(1.1);
+           
+            
+          }
+        }
+        
+        .insideUIUXblock{
+          display: grid;
+          columns: 1;
+          align-items: center;
+        }
+        
+        .Webblock{
+          background-color: rgb(255, 255, 255);
+          height: 300px;
+          width: 330px;
+          border-radius: 20px;
+          transition: transform 0.3s ease ; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        
+          .insidepicture1{
+            align-items: center;
+            margin-left: 115px;
+            margin-top: 20px;
+          }
+         
+          .firsttext1{
+            margin-left: 80px;
+            font-size: 22px;
+            font-weight: 900;
+            margin-top: 20px;
+          }
+          .secondtext1{
+            font-size: 20px;
+            font-weight: bolder;
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: justify;
+          }
+          .firstextweb{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 25px;
+          }
+          .firstextweb1{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 18px;
+        
+          }
+          .firstextweb3{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 18px;
+        
+          }
+          .firstextweb2{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 130px;
+          }
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+        .Appblock{
+          background-color: rgb(255, 255, 255);
+          height: 300px;width: 330px;
+          border-radius: 20px;
+          transition: transform 0.3s ease ; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          .insidepicture2{
+            align-items: center;
+            margin-left: 128px;
+            margin-top: 20px;
+          }
+         
+          .firsttext2{
+            margin-left: 70px;
+            font-size: 22px;
+            font-weight: 900;
+            margin-top: 20px;
+          }
+          .secondtext2{
+            font-size: 15px;
+            font-weight: bolder;
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: justify;
+          }
+          .firstextapp{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 30px;
+          }
+          .firstextapp1{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 50px;
+            width: 300px;
+        
+          }
+          .firstextapp2{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 75px;
+          }
+          .firstextapp3{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 110px;
+          }
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+}
+@media only screen and (min-width: 420px) and (max-width:480px){
+        .HomeFirstPart{
+          height: 500px;
+          width: 330px;
+          display: grid;
+          columns: 1;
+          background-image: url(../images/banner-bgHome.png);
+        }
+        .FirstPartleft{
+          background-color: transparent;
+          width: 330px;
+        }
+        .animationBytes{
+          color:#015004;
+          margin-left: 150px;
+          margin-top: -45px;
+          font-size: 35px;
+        }
+        .animationBytes1{
+          color:#000000;
+          margin-left: 022px;
+          margin-top: 50px;
+          font-size: 35px;
+        }
+        .writing-element {
+          white-space: nowrap;
+          overflow: hidden;
+          border-right: 0px solid #015004;
+          font-size: 5px;
+          padding: 10px;
+          animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+        }
+      
+        
+        @keyframes writeAnimation {
+          0% {
+            width: 0px;
+          }
+          100% {
+            width: 350px;
+          }
+        }
+        .FirstPartright{
+          background-color: transparent;
+          width: 330px;
+        }
+        .imagehome{
+          width: 330px;
+          background-color: transparent;
+          margin-top: 20px;
+          margin-left: 20px;
+        
+        }
+        .Innovative{
+          margin-left: 22px;
+          margin-top: 2px;
+          font-size: 14px;
+        }
+        .WhatweProvide{
+          background-color: #ffffff;
+          height: 1200px;
+          margin-bottom: -300px;
+        }
+        .wwphead1{
+          margin-left: 50px;
+          font-size: 30px;
+          margin-top: 50px;
+        }
+        .blocks{
+          columns: 1;
+          display: grid;
+          height: 400px;
+          margin-top: 40px;
+          gap: 100px;
+          margin-left: 45px;
+        }
+        .UIUXblock{
+          background-color: rgb(255, 255, 255);
+          height: 300px;width: 330px;
+          border-radius: 20px;
+          transition: transform 0.3s ease ; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          .insidepicture{
+            align-items: center;
+            margin-left: 115px;
+            margin-top: 20px;
+          }
+         
+          .firsttext{
+            margin-left: 100px;
+            font-size: 22px;
+            font-weight: 900;
+            margin-top: 20px;
+          }
+          .secondtext{
+            font-size: 20px;
+            font-weight: bolder;
+            margin-top: 55px;
+            margin-left: 0px;
+            text-align: justify;
+          }
+          .firstextUIUX{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 15px;
+          }
+          .firstextUIUX1{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 35px;
+        
+          }
+          .firstextUIUX2{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 105px;
+          }
+          &:hover {
+            transform: scale(1.1);
+           
+            
+          }
+        }
+        
+        .insideUIUXblock{
+          display: grid;
+          columns: 1;
+          align-items: center;
+        }
+        
+        .Webblock{
+          background-color: rgb(255, 255, 255);
+          height: 300px;
+          width: 330px;
+          border-radius: 20px;
+          transition: transform 0.3s ease ; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        
+          .insidepicture1{
+            align-items: center;
+            margin-left: 115px;
+            margin-top: 20px;
+          }
+         
+          .firsttext1{
+            margin-left: 80px;
+            font-size: 22px;
+            font-weight: 900;
+            margin-top: 20px;
+          }
+          .secondtext1{
+            font-size: 20px;
+            font-weight: bolder;
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: justify;
+          }
+          .firstextweb{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 25px;
+          }
+          .firstextweb1{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 18px;
+        
+          }
+          .firstextweb3{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 18px;
+        
+          }
+          .firstextweb2{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 130px;
+          }
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+        .Appblock{
+          background-color: rgb(255, 255, 255);
+          height: 300px;width: 330px;
+          border-radius: 20px;
+          transition: transform 0.3s ease ; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          .insidepicture2{
+            align-items: center;
+            margin-left: 128px;
+            margin-top: 20px;
+          }
+         
+          .firsttext2{
+            margin-left: 70px;
+            font-size: 22px;
+            font-weight: 900;
+            margin-top: 20px;
+          }
+          .secondtext2{
+            font-size: 15px;
+            font-weight: bolder;
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: justify;
+          }
+          .firstextapp{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 30px;
+          }
+          .firstextapp1{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 50px;
+            width: 300px;
+        
+          }
+          .firstextapp2{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 75px;
+          }
+          .firstextapp3{
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 110px;
+          }
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+}
+@media only screen and (min-width: 481px) and (max-width:700px){
+  .HomeFirstPart{
+    height: 500px;
+    width: 330px;
+    display: grid;
+    columns: 1;
+    background-image: url(../images/banner-bgHome.png);
+  }
+  .FirstPartleft{
+    background-color: transparent;
+    width: 330px;
+  }
+  .animationBytes{
+    color:#015004;
+    margin-left: 150px;
+    margin-top: -45px;
+    font-size: 35px;
+  }
+  .animationBytes1{
+    color:#000000;
+    margin-left: 022px;
+    margin-top: 50px;
+    font-size: 35px;
+  }
+  .writing-element {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0px solid #015004;
+    font-size: 5px;
+    padding: 10px;
+    animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+  }
+
+  
+  @keyframes writeAnimation {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 350px;
+    }
+  }
+  .FirstPartright{
+    background-color: transparent;
+    width: 330px;
+  }
+  .imagehome{
+    width: 330px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+  }
+  .Innovative{
+    margin-left: 22px;
+    margin-top: 2px;
+    font-size: 14px;
+  }
+  .WhatweProvide{
+    background-color: #ffffff;
+    height: 1200px;
+    margin-bottom: -300px;
+  }
+  .wwphead1{
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .blocks{
+    columns: 1;
+    display: grid;
+    height: 400px;
+    margin-top: 40px;
+    gap: 100px;
+    margin-left: 45px;
+  }
+  .UIUXblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;width: 330px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .insidepicture{
+      align-items: center;
+      margin-left: 115px;
+      margin-top: 20px;
+    }
+   
+    .firsttext{
+      margin-left: 100px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext{
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 55px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextUIUX{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 15px;
+    }
+    .firstextUIUX1{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 35px;
+  
+    }
+    .firstextUIUX2{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 105px;
+    }
+    &:hover {
+      transform: scale(1.1);
+     
+      
+    }
+  }
+  
+  .insideUIUXblock{
+    display: grid;
+    columns: 1;
+    align-items: center;
+  }
+  
+  .Webblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 330px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+    .insidepicture1{
+      align-items: center;
+      margin-left: 115px;
+      margin-top: 20px;
+    }
+   
+    .firsttext1{
+      margin-left: 80px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext1{
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextweb{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 25px;
+    }
+    .firstextweb1{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 18px;
+  
+    }
+    .firstextweb3{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 18px;
+  
+    }
+    .firstextweb2{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 130px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .Appblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;width: 330px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .insidepicture2{
+      align-items: center;
+      margin-left: 128px;
+      margin-top: 20px;
+    }
+   
+    .firsttext2{
+      margin-left: 70px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext2{
+      font-size: 15px;
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextapp{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+    .firstextapp1{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 50px;
+      width: 300px;
+  
+    }
+    .firstextapp2{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 75px;
+    }
+    .firstextapp3{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-left: 110px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width:790px){
+        .HomeFirstPart{
+          height: 300px;
+          width: 770px;
+          display: flex;
+          columns: 2;
+          background-image: url(../images/banner-bgHome.png);
+        }
+        .FirstPartleft{
+          background-color: transparent;
+          width: 330px;
+        }
+        .animationBytes{
+          color:#015004;
+          margin-left: 150px;
+          margin-top: -45px;
+          font-size: 35px;
+        }
+        .animationBytes1{
+          color:#000000;
+          margin-left: 022px;
+          margin-top: 50px;
+          font-size: 35px;
+        }
+        .writing-element {
+          white-space: nowrap;
+          overflow: hidden;
+          border-right: 0px solid #015004;
+          font-size: 5px;
+          padding: 10px;
+          animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+        }
+      
+        
+        @keyframes writeAnimation {
+          0% {
+            width: 0px;
+          }
+          100% {
+            width: 350px;
+          }
+        }
+        .FirstPartright{
+          background-color: transparent;
+          width: 330px;
+        }
+        .imagehome{
+          width: 330px;
+          background-color: transparent;
+          margin-top: 20px;
+          margin-left: 50px;
+        
+        }
+        .Innovative{
+          margin-left: 32px;
+          margin-top: 2px;
+          font-size: 16px;
+        }
+        .WhatweProvide{
+          background-color: #ffffff;
+          height: 1200px;
+          margin-bottom: -300px;
+        }
+        .wwphead1{
+          margin-left: 240px;
+          font-size: 30px;
+          margin-top: 50px;
+        }
+        .blocks{
+          columns: 1;
+          display: grid;
+          height: 400px;
+          margin-top: 40px;
+          gap: 100px;
+          margin-left: 12px;
+        }
+        .UIUXblock{
+          background-color: rgb(255, 255, 255);
+          height: 300px;width:450px;
+          border-radius: 20px;
+          margin-left: 150px;
+          transition: transform 0.3s ease ; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          .insidepicture{
+            align-items: center;
+            margin-left: 170px;
+            margin-top: 20px;
+          }
+         
+          .firsttext{
+            margin-left: 132px;
+            font-size: 26px;
+            font-weight: 900;
+            margin-top: 20px;
+          }
+          .secondtext{
+            font-size: 24px;
+            font-weight: bolder;
+            margin-top: 55px;
+            margin-left: 20px;
+            text-align: justify;
+          }
+          .firstextUIUX{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 15px;
+          }
+          .firstextUIUX1{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 35px;
+        
+          }
+          .firstextUIUX2{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 150px;
+          }
+          &:hover {
+            transform: scale(1.1);
+           
+            
+          }
+        }
+        
+        .insideUIUXblock{
+          display: grid;
+          columns: 1;
+          align-items: center;
+        }
+        
+        .Webblock{
+          background-color: rgb(255, 255, 255);
+          height: 300px;
+          width: 450px;
+          border-radius: 20px;
+          margin-left: 150px;
+          transition: transform 0.3s ease ; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        
+          .insidepicture1{
+            align-items: center;
+            margin-left: 180px;
+            margin-top: 20px;
+          }
+         
+          .firsttext1{
+            margin-left: 120px;
+            font-size: 22px;
+            font-weight: 900;
+            margin-top: 20px;
+          }
+          .secondtext1{
+            font-size: 20px;
+            font-weight: bolder;
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: justify;
+          }
+          .firstextweb{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 25px;
+          }
+          .firstextweb1{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 18px;
+        
+          }
+          .firstextweb3{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 18px;
+        
+          }
+          .firstextweb2{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 170px;
+          }
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+        .Appblock{
+          background-color: rgb(255, 255, 255);
+          height: 300px;width: 450px;
+          border-radius: 20px;
+          margin-left: 150px;
+          transition: transform 0.3s ease ; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          .insidepicture2{
+            align-items: center;
+            margin-left: 195px;
+            margin-top: 20px;
+          }
+         
+          .firsttext2{
+            margin-left: 120px;
+            font-size: 22px;
+            font-weight: 900;
+            margin-top: 20px;
+          }
+          .secondtext2{
+            font-size: 15px;
+            font-weight: bolder;
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: justify;
+          }
+          .firstextapp{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 35px;
+          }
+          .firstextapp1{
+            font-size: 12px;
+            margin-top: 10px;
+            margin-left: 70px;
+            width: 300px;
+        
+          }
+          .firstextapp2{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 75px;
+          }
+          .firstextapp3{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 140px;
+          }
+          &:hover {
+            transform: scale(1.1);
+          }}}
+@media only screen and (min-width: 798px) and (max-width:884px){
+
+            .HomeFirstPart{
+              height: 300px;
+              width: 770px;
+              display: flex;
+              columns: 2;
+              background-image: url(../images/banner-bgHome.png);
+            }
+            .FirstPartleft{
+              background-color: transparent;
+              width: 330px;
+            }
+            .animationBytes{
+              color:#015004;
+              margin-left: 150px;
+              margin-top: -45px;
+              font-size: 35px;
+            }
+            .animationBytes1{
+              color:#000000;
+              margin-left: 022px;
+              margin-top: 50px;
+              font-size: 35px;
+            }
+            .writing-element {
+              white-space: nowrap;
+              overflow: hidden;
+              border-right: 0px solid #015004;
+              font-size: 5px;
+              padding: 10px;
+              animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+            }
+          
+            
+            @keyframes writeAnimation {
+              0% {
+                width: 0px;
+              }
+              100% {
+                width: 350px;
+              }
+            }
+            .FirstPartright{
+              background-color: transparent;
+              width: 330px;
+            }
+            .imagehome{
+              width: 330px;
+              background-color: transparent;
+              margin-top: 20px;
+              margin-left: 50px;
+            
+            }
+            .Innovative{
+              margin-left: 32px;
+              margin-top: 2px;
+              font-size: 16px;
+            }
+            .WhatweProvide{
+              background-color: #ffffff;
+              height: 200px;
+              margin-bottom: 1000px;
+            }
+            .wwphead1{
+              margin-left: 240px;
+              font-size: 30px;
+              margin-top: 50px;
+            }
+            .blocks{
+              columns: 1;
+              display: grid;
+              height: 400px;
+              margin-top: 40px;
+              gap: 100px;
+              margin-left: 12px;
+            }
+            .UIUXblock{
+              background-color: rgb(255, 255, 255);
+              height: 300px;width:450px;
+              border-radius: 20px;
+              margin-left: 150px;
+              transition: transform 0.3s ease ; 
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+              .insidepicture{
+                align-items: center;
+                margin-left: 170px;
+                margin-top: 20px;
+              }
+             
+              .firsttext{
+                margin-left: 132px;
+                font-size: 26px;
+                font-weight: 900;
+                margin-top: 20px;
+              }
+              .secondtext{
+                font-size: 24px;
+                font-weight: bolder;
+                margin-top: 55px;
+                margin-left: 20px;
+                text-align: justify;
+              }
+              .firstextUIUX{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 15px;
+              }
+              .firstextUIUX1{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 35px;
+            
+              }
+              .firstextUIUX2{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 150px;
+              }
+              &:hover {
+                transform: scale(1.1);
+               
+                
+              }
+            }
+            
+            .insideUIUXblock{
+              display: grid;
+              columns: 1;
+              align-items: center;
+            }
+            
+            .Webblock{
+              background-color: rgb(255, 255, 255);
+              height: 300px;
+              width: 450px;
+              border-radius: 20px;
+              margin-left: 150px;
+              transition: transform 0.3s ease ; 
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            
+              .insidepicture1{
+                align-items: center;
+                margin-left: 180px;
+                margin-top: 20px;
+              }
+             
+              .firsttext1{
+                margin-left: 120px;
+                font-size: 22px;
+                font-weight: 900;
+                margin-top: 20px;
+              }
+              .secondtext1{
+                font-size: 20px;
+                font-weight: bolder;
+                margin-top: 0px;
+                margin-left: 0px;
+                text-align: justify;
+              }
+              .firstextweb{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 25px;
+              }
+              .firstextweb1{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 18px;
+            
+              }
+              .firstextweb3{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 18px;
+            
+              }
+              .firstextweb2{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 170px;
+              }
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+            .Appblock{
+              background-color: rgb(255, 255, 255);
+              height: 300px;width: 450px;
+              border-radius: 20px;
+              margin-left: 150px;
+              transition: transform 0.3s ease ; 
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+              .insidepicture2{
+                align-items: center;
+                margin-left: 195px;
+                margin-top: 20px;
+              }
+             
+              .firsttext2{
+                margin-left: 120px;
+                font-size: 22px;
+                font-weight: 900;
+                margin-top: 20px;
+              }
+              .secondtext2{
+                font-size: 15px;
+                font-weight: bolder;
+                margin-top: 0px;
+                margin-left: 0px;
+                text-align: justify;
+              }
+              .firstextapp{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 35px;
+              }
+              .firstextapp1{
+                font-size: 12px;
+                margin-top: 10px;
+                margin-left: 70px;
+                width: 300px;
+            
+              }
+              .firstextapp2{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 75px;
+              }
+              .firstextapp3{
+                font-size: 13px;
+                margin-top: 10px;
+                margin-left: 140px;
+              }
+              &:hover {
+                transform: scale(1.1);
+              }}}
+@media only screen and (min-width:1000px) and (max-width:1120px){
+
+  .HomeFirstPart{
+    height: 300px;
+    width: 770px;
+    display: flex;
+    columns: 2;
+    background-image: url(../images/banner-bgHome.png);
+  }
+  .FirstPartleft{
+    background-color: transparent;
+    width: 330px;
+  }
+  .animationBytes{
+    color:#015004;
+    margin-left: 220px;
+    margin-top: -65px;
+    font-size: 50px;
+  }
+  .animationBytes1{
+    color:#000000;
+    margin-left: 022px;
+    margin-top: 50px;
+    font-size: 50px;
+  }
+  .writing-element {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0px solid #015004;
+    font-size: 5px;
+    padding: 10px;
+    animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+  }
+
+  
+  @keyframes writeAnimation {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 700px;
+    }
+  }
+  .FirstPartright{
+    background-color: transparent;
+    width: 330px;
+  }
+  .imagehome{
+    width: 330px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 250px;
+  
+  }
+  .Innovative{
+    margin-left: 32px;
+    margin-top: 2px;
+    font-size: 30px;
+    width: 500px;
+  }
+  .WhatweProvide{
+    background-color: #ffffff;
+    height: 200px;
+    margin-bottom: 1000px;
+  }
+  .wwphead1{
+    margin-left: 340px;
+    font-size: 30px;
+    margin-top: 150px;
+  }
+  .blocks{
+    columns: 1;
+    display: grid;
+    height: 400px;
+    margin-top: 40px;
+    gap: 100px;
+    margin-left: 100px;
+  }
+  .UIUXblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;width:450px;
+    border-radius: 20px;
+    margin-left: 150px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .insidepicture{
+      align-items: center;
+      margin-left: 170px;
+      margin-top: 20px;
+    }
+   
+    .firsttext{
+      margin-left: 132px;
+      font-size: 26px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext{
+      font-size: 24px;
+      font-weight: bolder;
+      margin-top: 55px;
+      margin-left: 20px;
+      text-align: justify;
+    }
+    .firstextUIUX{
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 15px;
+    }
+    .firstextUIUX1{
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 35px;
+  
+    }
+    .firstextUIUX2{
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 150px;
+    }
+    &:hover {
+      transform: scale(1.1);
+     
+      
+    }
+  }
+  
+  .insideUIUXblock{
+    display: grid;
+    columns: 1;
+    align-items: center;
+  }
+  
+  .Webblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+    margin-left: 150px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+    .insidepicture1{
+      align-items: center;
+      margin-left: 180px;
+      margin-top: 20px;
+    }
+   
+    .firsttext1{
+      margin-left: 120px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext1{
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextweb{
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 25px;
+    }
+    .firstextweb1{
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 18px;
+  
+    }
+    .firstextweb3{
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 18px;
+  
+    }
+    .firstextweb2{
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 170px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .Appblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;width: 450px;
+    border-radius: 20px;
+    margin-left: 150px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .insidepicture2{
+      align-items: center;
+      margin-left: 195px;
+      margin-top: 20px;
+    }
+   
+    .firsttext2{
+      margin-left: 120px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext2{
+      font-size: 15px;
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextapp{
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 35px;
+    }
+    .firstextapp1{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 70px;
+      width: 300px;
+  
+    }
+    .firstextapp2{
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 75px;
+    }
+    .firstextapp3{
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 140px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }}}
+@media only screen and (min-width: 3100px) and (max-width:3200px){
+                .HomeFirstPart{
+                  height: 300px;
+                  width: 3200px;
+                  display: flex;
+                  columns: 2;
+                  background-image: url(../images/banner-bgHome.png);
+                }
+                .FirstPartleft{
+                  background-color: transparent;
+                  width: 2200px;
+                }
+                .animationBytes{
+                  color:#015004;
+                  margin-left: 800px;
+                  margin-top: -260px;
+                  font-size: 200px;
+                }
+                .animationBytes1{
+                  color:#000000;
+                  margin-left: px;
+                  margin-top: 100px;
+                  font-size: 200px;
+                }
+                .writing-element {
+                  white-space: nowrap;
+                  overflow: hidden;
+                  border-right: 0px solid #015004;
+                  font-size: 5px;
+                  padding: 10px;
+                  animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+                }
+              
+                
+                @keyframes writeAnimation {
+                  0% {
+                    width: 0px;
+                  }
+                  100% {
+                    width: 2200px;
+                  }
+                }
+                .FirstPartright{
+                  background-color: transparent;
+                  width: 1000px;
+                }
+                .imagehome{
+                  width: 1000px;
+                  background-color: transparent;
+                  margin-top: 20px;
+                  margin-left: 0px;
+                
+                }
+                .Innovative{
+                  margin-left: 32px;
+                  margin-top: 2px;
+                  font-size: 80px;
+                }
+                .WhatweProvide{
+                  background-color: #ffffff;
+                  height: 1200px;
+                  margin-bottom: -300px;
+                  width: 3200px;
+                }
+                .wwphead1{
+                  margin-left: 1200px;
+                  font-size: 80px;
+                  margin-top: 1000px;
+                }
+                .blocks{
+                  columns: 3;
+                  display: flex;
+                  height: 400px;
+                  margin-top: 50px;
+                  gap: 0px;
+                  margin-left: -100px;
+                }
+                .UIUXblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 550px;width:1000px;
+                  border-radius: 20px;
+                  margin-left: 150px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+                  .insidepicture{
+                    align-items: center;
+                    margin-left: 400px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext{
+                    margin-left: 300px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext{
+                    font-size: 50px;
+                    font-weight: bolder;
+                    margin-top: 55px;
+                    margin-left: 20px;
+                    text-align: justify;
+                  }
+                  .firstextUIUX{
+                    font-size: 30px;
+                    margin-top: 10px;
+                    margin-left: 20px;
+                  }
+                  .firstextUIUX1{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 35px;
+                
+                  }
+                  .firstextUIUX2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 280px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                   
+                    
+                  }
+                }
+                
+                .insideUIUXblock{
+                  display: grid;
+                  columns: 1;
+                  align-items: center;
+                }
+                
+                .Webblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 550px;
+                  width: 1050px;
+                  border-radius: 20px;
+                  margin-left: 40px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                
+                  .insidepicture1{
+                    align-items: center;
+                    margin-left: 420px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext1{
+                    margin-left: 250px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext1{
+                    font-size: 20px;
+                    font-weight: bolder;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    text-align: justify;
+                  }
+                  .firstextweb{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 25px;
+                  }
+                  .firstextweb1{
+                    font-size: 32px;
+                    margin-top: 10px;
+                    margin-left: 18px;
+                
+                  }
+                  .firstextweb3{
+                    font-size: 32px;
+                    margin-top: 10px;
+                    margin-left: 18px;
+                
+                  }
+                  .firstextweb2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 380px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                  }
+                }
+                .Appblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 560px;width: 950px;
+                  border-radius: 20px;
+                  margin-left: 10px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                  .insidepicture2{
+                    align-items: center;
+                    margin-left: 400px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext2{
+                    margin-left: 220px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext2{
+                    font-size: 15px;
+                    font-weight: bolder;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    text-align: justify;
+                  }
+                  .firstextapp{
+                    font-size: 31px;
+                    margin-top: 10px;
+                    margin-left: 35px;
+                  }
+                  .firstextapp1{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 250px;
+                    display: none;
+                
+                  }
+                  .firstextapp2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 100px;
+                  }
+                  .firstextapp3{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 240px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                  }}}
+@media only screen and (min-width: 2400px) and (max-width:2600px){
+                    .HomeFirstPart{
+                      height: 300px;
+                      width: 2560px;
+                      display: flex;
+                      columns: 2;
+                      background-image: url(../images/banner-bgHome.png);
+                    }
+                    .FirstPartleft{
+                      background-color: transparent;
+                      width: 2200px;
+                      margin-top: 200px;
+                    }
+                    .animationBytes{
+                      color:#015004;
+                      margin-left: 650px;
+                      margin-top: -390px;
+                      font-size: 150px;
+                    }
+                    .animationBytes1{
+                      color:#000000;
+                      margin-left: 100px;
+                      margin-top: 20px;
+                      font-size: 150px;
+                      margin-bottom: 200px;
+                    }
+                    .writing-element {
+                      white-space: nowrap;
+                      overflow: hidden;
+                      border-right: 0px solid #015004;
+                      font-size: 5px;
+                      padding: 10px;
+                      animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+                    }
+                  
+                    
+                    @keyframes writeAnimation {
+                      0% {
+                        width: 0px;
+                      }
+                      100% {
+                        width: 2200px;
+                      }
+                    }
+                    .FirstPartright{
+                      background-color: transparent;
+                      width: 1000px;
+                    }
+                    .imagehome{
+                      width: 800px;
+                      background-color: transparent;
+                      margin-top: 200px;
+                      margin-left: -700px;
+                    
+                    }
+                    .Innovative{
+                      margin-left: 120px;
+                      margin-top: 2px;
+                      font-size: 50px;
+                    }
+                    .WhatweProvide{
+                      background-color: #ffffff;
+                      height: 1200px;
+                      margin-bottom: 100px;
+                      width: 2560px;
+                    }
+                    .wwphead1{
+                      margin-left: 900px;
+                      font-size: 80px;
+                      margin-top: 1000px;
+                    }
+                    .blocks{
+                      columns: 2;
+                      display: flex;
+                      height: 700px;
+                      margin-top: 50px;
+                      gap: 80px;
+                      margin-left: 0px;
+                    }
+                    .UIUXblock{
+                      background-color: rgb(255, 255, 255);
+                      height: 550px;width:1000px;
+                      border-radius: 20px;
+                      margin-left: 150px;
+                      transition: transform 0.3s ease ; 
+                      box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+                      .insidepicture{
+                        align-items: center;
+                        margin-left: 400px;
+                        margin-top: 20px;
+                      }
+                     
+                      .firsttext{
+                        margin-left: 300px;
+                        font-size: 50px;
+                        font-weight: 900;
+                        margin-top: 20px;
+                      }
+                      .secondtext{
+                        font-size: 50px;
+                        font-weight: bolder;
+                        margin-top: 55px;
+                        margin-left: 20px;
+                        text-align: justify;
+                      }
+                      .firstextUIUX{
+                        font-size: 30px;
+                        margin-top: 10px;
+                        margin-left: 20px;
+                      }
+                      .firstextUIUX1{
+                        font-size: 35px;
+                        margin-top: 10px;
+                        margin-left: 35px;
+                    
+                      }
+                      .firstextUIUX2{
+                        font-size: 35px;
+                        margin-top: 10px;
+                        margin-left: 280px;
+                      }
+                      &:hover {
+                        transform: scale(1.1);
+                       
+                        
+                      }
+                    }
+                    
+                    .insideUIUXblock{
+                      display: grid;
+                      columns: 1;
+                      align-items: center;
+                    }
+                    
+                    .Webblock{
+                      background-color: rgb(255, 255, 255);
+                      height: 550px;
+                      width: 1050px;
+                      border-radius: 20px;
+                      margin-left: 40px;
+                      transition: transform 0.3s ease ; 
+                      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                    
+                      .insidepicture1{
+                        align-items: center;
+                        margin-left: 420px;
+                        margin-top: 20px;
+                      }
+                     
+                      .firsttext1{
+                        margin-left: 250px;
+                        font-size: 50px;
+                        font-weight: 900;
+                        margin-top: 20px;
+                      }
+                      .secondtext1{
+                        font-size: 20px;
+                        font-weight: bolder;
+                        margin-top: 0px;
+                        margin-left: 0px;
+                        text-align: justify;
+                      }
+                      .firstextweb{
+                        font-size: 35px;
+                        margin-top: 10px;
+                        margin-left: 25px;
+                      }
+                      .firstextweb1{
+                        font-size: 32px;
+                        margin-top: 10px;
+                        margin-left: 18px;
+                    
+                      }
+                      .firstextweb3{
+                        font-size: 32px;
+                        margin-top: 10px;
+                        margin-left: 18px;
+                    
+                      }
+                      .firstextweb2{
+                        font-size: 35px;
+                        margin-top: 10px;
+                        margin-left: 380px;
+                      }
+                      &:hover {
+                        transform: scale(1.1);
+                      }
+                    }
+                    .Appblock{
+                      background-color: rgb(255, 255, 255);
+                      height: 560px;width: 950px;
+                      border-radius: 20px;
+                      margin-left: 10px;
+                      margin-top: 600px;
+                      margin-left: -1600px;
+                      margin-bottom: 200px;
+                      transition: transform 0.3s ease ; 
+                      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                      .insidepicture2{
+                        align-items: center;
+                        margin-left: 400px;
+                        margin-top: 20px;
+                      }
+                     
+                      .firsttext2{
+                        margin-left: 220px;
+                        font-size: 50px;
+                        font-weight: 900;
+                        margin-top: 20px;
+                      }
+                      .secondtext2{
+                        font-size: 15px;
+                        font-weight: bolder;
+                        margin-top: 0px;
+                        margin-left: 0px;
+                        text-align: justify;
+                      }
+                      .firstextapp{
+                        font-size: 31px;
+                        margin-top: 10px;
+                        margin-left: 35px;
+                      }
+                      .firstextapp1{
+                        font-size: 35px;
+                        margin-top: 10px;
+                        margin-left: 250px;
+                        display: none;
+                    
+                      }
+                      .firstextapp2{
+                        font-size: 35px;
+                        margin-top: 10px;
+                        margin-left: 100px;
+                      }
+                      .firstextapp3{
+                        font-size: 35px;
+                        margin-top: 10px;
+                        margin-left: 240px;
+                      }
+                      &:hover {
+                        transform: scale(1.1);
+                      }}}
+@media only screen and (min-width: 2000px) and (max-width:2300px){
+                .HomeFirstPart{
+                  height: 300px;
+                  width: 2048px;
+                  display: flex;
+                  columns: 2;
+                  background-image: url(../images/banner-bgHome.png);
+                }
+                .FirstPartleft{
+                  background-color: transparent;
+                  width: 1500px;
+                  margin-top: 100px;
+                }
+                .animationBytes{
+                  color:#015004;
+                  margin-left: 550px;
+                  margin-top: -340px;
+                  font-size: 100px;
+                }
+                .animationBytes1{
+                  color:#000000;
+                  margin-left: 100px;
+                  margin-top: 20px;
+                  font-size: 120px;
+                  margin-bottom: 200px;
+                }
+                .writing-element {
+                  white-space: nowrap;
+                  overflow: hidden;
+                  border-right: 0px solid #015004;
+                  font-size: 5px;
+                  padding: 10px;
+                  animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+                }
+              
+                
+                @keyframes writeAnimation {
+                  0% {
+                    width: 0px;
+                  }
+                  100% {
+                    width: 2200px;
+                  }
+                }
+                .FirstPartright{
+                  background-color: transparent;
+                  width: 1000px;
+                }
+                .imagehome{
+                  width: 800px;
+                  background-color: transparent;
+                  margin-top: 20px;
+                  margin-left: -350px;
+                
+                }
+                .Innovative{
+                  margin-left: 130px;
+                  margin-top: 2px;
+                  font-size: 35px;
+                }
+                .WhatweProvide{
+                  background-color: #ffffff;
+                  height: 1200px;
+                  margin-top: -200px;
+                  margin-bottom: 800px;
+                  width: 2048px;
+                }
+                .wwphead1{
+                  margin-left:650px;
+                  font-size: 80px;
+                  margin-top: 1000px;
+                }
+                .blocks{
+                  columns: 2;
+                  display: grid;
+                  height: 700px;
+                  margin-top: 50px;
+                  gap: 0px;
+                  margin-left: 400px;
+                }
+                .UIUXblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 550px;width:1000px;
+                  border-radius: 20px;
+                  margin-left: 150px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+                  .insidepicture{
+                    align-items: center;
+                    margin-left: 400px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext{
+                    margin-left: 300px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext{
+                    font-size: 50px;
+                    font-weight: bolder;
+                    margin-top: 55px;
+                    margin-left: 20px;
+                    text-align: justify;
+                  }
+                  .firstextUIUX{
+                    font-size: 30px;
+                    margin-top: 10px;
+                    margin-left: 20px;
+                  }
+                  .firstextUIUX1{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 35px;
+                
+                  }
+                  .firstextUIUX2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 280px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                   
+                    
+                  }
+                }
+                
+                .insideUIUXblock{
+                  display: grid;
+                  columns: 1;
+                  align-items: center;
+                }
+                
+                .Webblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 550px;
+                  width: 1050px;
+                  border-radius: 20px;
+                  margin-left: 130px;
+                  margin-top: 20px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                
+                  .insidepicture1{
+                    align-items: center;
+                    margin-left: 420px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext1{
+                    margin-left: 250px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext1{
+                    font-size: 20px;
+                    font-weight: bolder;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    text-align: justify;
+                  }
+                  .firstextweb{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 25px;
+                  }
+                  .firstextweb1{
+                    font-size: 32px;
+                    margin-top: 10px;
+                    margin-left: 18px;
+                
+                  }
+                  .firstextweb3{
+                    font-size: 32px;
+                    margin-top: 10px;
+                    margin-left: 18px;
+                
+                  }
+                  .firstextweb2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 380px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                  }
+                }
+                .Appblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 560px;width: 950px;
+                  border-radius: 20px;
+                  margin-left: 150px;
+                  margin-top: 20px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                  .insidepicture2{
+                    align-items: center;
+                    margin-left: 400px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext2{
+                    margin-left: 220px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext2{
+                    font-size: 15px;
+                    font-weight: bolder;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    text-align: justify;
+                  }
+                  .firstextapp{
+                    font-size: 31px;
+                    margin-top: 10px;
+                    margin-left: 35px;
+                  }
+                  .firstextapp1{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 250px;
+                    display: none;
+                
+                  }
+                  .firstextapp2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 100px;
+                  }
+                  .firstextapp3{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 240px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                  }}}
+@media only screen and (min-width: 1900px) and (max-width:1999px){
+                .HomeFirstPart{
+                  height: 300px;
+                  width: 1920px;
+                  display: flex;
+                  columns: 2;
+                  background-image: url(../images/banner-bgHome.png);
+                }
+                .FirstPartleft{
+                  background-color: transparent;
+                  width: 1500px;
+                  margin-top: 100px;
+                }
+                .animationBytes{
+                  color:#015004;
+                  margin-left: 550px;
+                  margin-top: -340px;
+                  font-size: 100px;
+                }
+                .animationBytes1{
+                  color:#000000;
+                  margin-left: 100px;
+                  margin-top: 20px;
+                  font-size: 120px;
+                  margin-bottom: 200px;
+                }
+                .writing-element {
+                  white-space: nowrap;
+                  overflow: hidden;
+                  border-right: 0px solid #015004;
+                  font-size: 5px;
+                  padding: 10px;
+                  animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+                }
+              
+                
+                @keyframes writeAnimation {
+                  0% {
+                    width: 0px;
+                  }
+                  100% {
+                    width: 2200px;
+                  }
+                }
+                .FirstPartright{
+                  background-color: transparent;
+                  width: 1000px;
+                }
+                .imagehome{
+                  width: 800px;
+                  background-color: transparent;
+                  margin-top: 20px;
+                  margin-left: -350px;
+                
+                }
+                .Innovative{
+                  margin-left: 130px;
+                  margin-top: 2px;
+                  font-size: 35px;
+                }
+                .WhatweProvide{
+                  background-color: #ffffff;
+                  height: 1200px;
+                  margin-top: -200px;
+                  margin-bottom: 800px;
+                  width: 1450px;
+                }
+                .wwphead1{
+                  margin-left:550px;
+                  font-size: 80px;
+                  margin-top: 1000px;
+                }
+                .blocks{
+                  columns: 2;
+                  display: grid;
+                  height: 700px;
+                  margin-top: 50px;
+                  gap: 0px;
+                  margin-left: 280px;
+                }
+                .UIUXblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 550px;width:1000px;
+                  border-radius: 20px;
+                  margin-left: 150px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+                  .insidepicture{
+                    align-items: center;
+                    margin-left: 400px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext{
+                    margin-left: 300px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext{
+                    font-size: 50px;
+                    font-weight: bolder;
+                    margin-top: 55px;
+                    margin-left: 20px;
+                    text-align: justify;
+                  }
+                  .firstextUIUX{
+                    font-size: 30px;
+                    margin-top: 10px;
+                    margin-left: 20px;
+                  }
+                  .firstextUIUX1{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 35px;
+                
+                  }
+                  .firstextUIUX2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 280px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                   
+                    
+                  }
+                }
+                
+                .insideUIUXblock{
+                  display: grid;
+                  columns: 1;
+                  align-items: center;
+                }
+                
+                .Webblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 550px;
+                  width: 1050px;
+                  border-radius: 20px;
+                  margin-left: 130px;
+                  margin-top: 20px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                
+                  .insidepicture1{
+                    align-items: center;
+                    margin-left: 420px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext1{
+                    margin-left: 250px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext1{
+                    font-size: 20px;
+                    font-weight: bolder;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    text-align: justify;
+                  }
+                  .firstextweb{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 25px;
+                  }
+                  .firstextweb1{
+                    font-size: 32px;
+                    margin-top: 10px;
+                    margin-left: 18px;
+                
+                  }
+                  .firstextweb3{
+                    font-size: 32px;
+                    margin-top: 10px;
+                    margin-left: 18px;
+                
+                  }
+                  .firstextweb2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 380px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                  }
+                }
+                .Appblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 560px;width: 950px;
+                  border-radius: 20px;
+                  margin-left: 150px;
+                  margin-top: 20px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                  .insidepicture2{
+                    align-items: center;
+                    margin-left: 400px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext2{
+                    margin-left: 220px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext2{
+                    font-size: 15px;
+                    font-weight: bolder;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    text-align: justify;
+                  }
+                  .firstextapp{
+                    font-size: 31px;
+                    margin-top: 10px;
+                    margin-left: 35px;
+                  }
+                  .firstextapp1{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 250px;
+                    display: none;
+                
+                  }
+                  .firstextapp2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 100px;
+                  }
+                  .firstextapp3{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 240px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                  }}}
+@media only screen and (min-width: 2301px) and (max-width:2399px){
+                .HomeFirstPart{
+                  height: 300px;
+                  width: 2048px;
+                  display: flex;
+                  columns: 2;
+                  background-image: url(../images/banner-bgHome.png);
+                }
+                .FirstPartleft{
+                  background-color: transparent;
+                  width: 1500px;
+                  margin-top: 100px;
+                }
+                .animationBytes{
+                  color:#015004;
+                  margin-left: 550px;
+                  margin-top: -340px;
+                  font-size: 100px;
+                }
+                .animationBytes1{
+                  color:#000000;
+                  margin-left: 100px;
+                  margin-top: 20px;
+                  font-size: 120px;
+                  margin-bottom: 200px;
+                }
+                .writing-element {
+                  white-space: nowrap;
+                  overflow: hidden;
+                  border-right: 0px solid #015004;
+                  font-size: 5px;
+                  padding: 10px;
+                  animation: writeAnimation 3s steps(10) forwards; /* Animation properties */
+                }
+              
+                
+                @keyframes writeAnimation {
+                  0% {
+                    width: 0px;
+                  }
+                  100% {
+                    width: 2200px;
+                  }
+                }
+                .FirstPartright{
+                  background-color: transparent;
+                  width: 1000px;
+                }
+                .imagehome{
+                  width: 800px;
+                  background-color: transparent;
+                  margin-top: 20px;
+                  margin-left: -350px;
+                
+                }
+                .Innovative{
+                  margin-left: 130px;
+                  margin-top: 2px;
+                  font-size: 35px;
+                }
+                .WhatweProvide{
+                  background-color: #ffffff;
+                  height: 1200px;
+                  margin-top: -200px;
+                  margin-bottom: 800px;
+                  width: 2048px;
+                }
+                .wwphead1{
+                  margin-left:750px;
+                  font-size: 80px;
+                  margin-top: 1000px;
+                }
+                .blocks{
+                  columns: 2;
+                  display: grid;
+                  height: 700px;
+                  margin-top: 50px;
+                  gap: 0px;
+                  margin-left: 500px;
+                }
+                .UIUXblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 550px;width:1000px;
+                  border-radius: 20px;
+                  margin-left: 150px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+                  .insidepicture{
+                    align-items: center;
+                    margin-left: 400px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext{
+                    margin-left: 300px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext{
+                    font-size: 50px;
+                    font-weight: bolder;
+                    margin-top: 55px;
+                    margin-left: 20px;
+                    text-align: justify;
+                  }
+                  .firstextUIUX{
+                    font-size: 30px;
+                    margin-top: 10px;
+                    margin-left: 20px;
+                  }
+                  .firstextUIUX1{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 35px;
+                
+                  }
+                  .firstextUIUX2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 280px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                   
+                    
+                  }
+                }
+                
+                .insideUIUXblock{
+                  display: grid;
+                  columns: 1;
+                  align-items: center;
+                }
+                
+                .Webblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 550px;
+                  width: 1050px;
+                  border-radius: 20px;
+                  margin-left: 130px;
+                  margin-top: 20px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                
+                  .insidepicture1{
+                    align-items: center;
+                    margin-left: 420px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext1{
+                    margin-left: 250px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext1{
+                    font-size: 20px;
+                    font-weight: bolder;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    text-align: justify;
+                  }
+                  .firstextweb{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 25px;
+                  }
+                  .firstextweb1{
+                    font-size: 32px;
+                    margin-top: 10px;
+                    margin-left: 18px;
+                
+                  }
+                  .firstextweb3{
+                    font-size: 32px;
+                    margin-top: 10px;
+                    margin-left: 18px;
+                
+                  }
+                  .firstextweb2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 380px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                  }
+                }
+                .Appblock{
+                  background-color: rgb(255, 255, 255);
+                  height: 560px;width: 950px;
+                  border-radius: 20px;
+                  margin-left: 150px;
+                  margin-top: 20px;
+                  transition: transform 0.3s ease ; 
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                  .insidepicture2{
+                    align-items: center;
+                    margin-left: 400px;
+                    margin-top: 20px;
+                  }
+                 
+                  .firsttext2{
+                    margin-left: 220px;
+                    font-size: 50px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                  }
+                  .secondtext2{
+                    font-size: 15px;
+                    font-weight: bolder;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    text-align: justify;
+                  }
+                  .firstextapp{
+                    font-size: 31px;
+                    margin-top: 10px;
+                    margin-left: 35px;
+                  }
+                  .firstextapp1{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 250px;
+                    display: none;
+                
+                  }
+                  .firstextapp2{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 100px;
+                  }
+                  .firstextapp3{
+                    font-size: 35px;
+                    margin-top: 10px;
+                    margin-left: 240px;
+                  }
+                  &:hover {
+                    transform: scale(1.1);
+                  }}}
+@media only screen and (min-width: 1200px) and (max-width:1300px){
+  .HomeFirstPart{
+    height: 500px;
+    display: flex;
+    columns: 2;
+    background-image: url(../images/banner-bgHome.png);
+  }
+  .FirstPartleft{
+    background-color: transparent;
+    width: 1200px;
+  }
+  .animationBytes{
+    color:#015004;
+    margin-left: 330px;
+    margin-top: -105px;
+    font-size: 80px;
+  }
+  .animationBytes1{
+    color:#000000;
+    margin-left: 35px;
+    margin-top: 100px;
+    font-size: 80px;
+  }
+  .writing-element {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0px solid #015004;
+    font-size: 5px;
+    padding: 10px;
+    animation: writeAnimation 3s steps(40) forwards; /* Animation properties */
+  }
+  
+  @keyframes writeAnimation {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 900px;
+    }
+  }
+  .FirstPartright{
+    width: 450px;
+  }
+  .imagehome{
+    width: 450px;
+    background: transparent;
+    margin-top: 30px;
+    margin-left: -150px;
+  
+  }
+  .Innovative{
+    margin-left: 52px;
+    margin-top: -20px;
+    font-size: 20px;
+  }
+  .WhatweProvide{
+    background-color: #ffffff;
+    height: 500px;
+    margin-bottom: -300px;
+  }
+  .wwphead1{
+    margin-left: 550px;
+    font-size: 30px;
+    margin-top: 90px;
+  }
+  .blocks{
+    columns: 3;
+    display: flex;
+    height: 400px;
+    margin-top: 40px;
+    gap: 20px;
+    margin-left: 70px;
+  }
+  .UIUXblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;width: 400px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .insidepicture{
+      align-items: center;
+      margin-left: 150px;
+      margin-top: 20px;
+    }
+   
+    .firsttext{
+      margin-left: 120px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext{
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 55px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextUIUX{
+      font-size: 11px;
+      margin-top: 10px;
+      margin-left: 15px;
+    }
+    .firstextUIUX1{
+      font-size: 11px;
+      margin-top: 10px;
+      margin-left: 35px;
+  
+    }
+    .firstextUIUX2{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 105px;
+    }
+    &:hover {
+      transform: scale(1.1);
+     
+      
+    }
+  }
+  
+  .insideUIUXblock{
+    display: grid;
+    columns: 1;
+    align-items: center;
+  }
+  
+  .Webblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+    .insidepicture1{
+      align-items: center;
+      margin-left: 152px;
+      margin-top: 20px;
+    }
+   
+    .firsttext1{
+      margin-left: 90px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext1{
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextweb{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 25px;
+    }
+    .firstextweb1{
+      font-size: 11px;
+      margin-top: 10px;
+      margin-left: 18px;
+  
+    }
+    .firstextweb3{
+      font-size: 11px;
+      margin-top: 10px;
+      margin-left: 18px;
+  
+    }
+    .firstextweb2{
+      font-size: 11px;
+      margin-top: 10px;
+      margin-left: 150px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .Appblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .insidepicture2{
+      align-items: center;
+      margin-left: 162px;
+      margin-top: 20px;
+    }
+   
+    .firsttext2{
+      margin-left: 90px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext2{
+      font-size: 15px;
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextapp{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+    .firstextapp1{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 50px;
+      width: 300px;
+  
+    }
+    .firstextapp2{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 75px;
+    }
+    .firstextapp3{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 125px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }}
+@media only screen and (min-width:1500px) and (max-width:1700px){
+  .HomeFirstPart{
+    height: 500px;
+    display: flex;
+    columns: 2;
+    background-image: url(../images/banner-bgHome.png);
+  }
+  .FirstPartleft{
+    background-color: transparent;
+    width: 1200px;
+  }
+  .animationBytes{
+    color:#015004;
+    margin-left: 330px;
+    margin-top: -105px;
+    font-size: 80px;
+  }
+  .animationBytes1{
+    color:#000000;
+    margin-left: 35px;
+    margin-top: 100px;
+    font-size: 80px;
+  }
+  .writing-element {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0px solid #015004;
+    font-size: 5px;
+    padding: 10px;
+    animation: writeAnimation 3s steps(40) forwards; /* Animation properties */
+  }
+  
+  @keyframes writeAnimation {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 900px;
+    }
+  }
+  .FirstPartright{
+    width: 450px;
+  }
+  .imagehome{
+    width: 450px;
+    background: transparent;
+    margin-top: 30px;
+    margin-left: -150px;
+  
+  }
+  .Innovative{
+    margin-left: 52px;
+    margin-top: -20px;
+    font-size: 20px;
+  }
+  .WhatweProvide{
+    background-color: #ffffff;
+    height: 500px;
+    margin-bottom: -300px;
+  }
+  .wwphead1{
+    margin-left: 650px;
+    font-size: 30px;
+    margin-top: 90px;
+  }
+  .blocks{
+    columns: 3;
+    display: flex;
+    height: 400px;
+    margin-top: 40px;
+    gap: 20px;
+    margin-left: 180px;
+  }
+  .UIUXblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;width: 400px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .insidepicture{
+      align-items: center;
+      margin-left: 150px;
+      margin-top: 20px;
+    }
+   
+    .firsttext{
+      margin-left: 120px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext{
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 55px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextUIUX{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 15px;
+    }
+    .firstextUIUX1{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 35px;
+  
+    }
+    .firstextUIUX2{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 105px;
+    }
+    &:hover {
+      transform: scale(1.1);
+     
+      
+    }
+  }
+  
+  .insideUIUXblock{
+    display: grid;
+    columns: 1;
+    align-items: center;
+  }
+  
+  .Webblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+    .insidepicture1{
+      align-items: center;
+      margin-left: 152px;
+      margin-top: 20px;
+    }
+   
+    .firsttext1{
+      margin-left: 90px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext1{
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextweb{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 25px;
+    }
+    .firstextweb1{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 18px;
+  
+    }
+    .firstextweb3{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 18px;
+  
+    }
+    .firstextweb2{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 150px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .Appblock{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    transition: transform 0.3s ease ; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .insidepicture2{
+      align-items: center;
+      margin-left: 162px;
+      margin-top: 20px;
+    }
+   
+    .firsttext2{
+      margin-left: 90px;
+      font-size: 22px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    .secondtext2{
+      font-size: 15px;
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-left: 0px;
+      text-align: justify;
+    }
+    .firstextapp{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+    .firstextapp1{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 50px;
+      width: 300px;
+  
+    }
+    .firstextapp2{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 75px;
+    }
+    .firstextapp3{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-left: 125px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
