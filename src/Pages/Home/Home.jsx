@@ -12,7 +12,7 @@ import image from '../images/home2.gif';
 import image3 from '../images/design-work-1.png'
 import web from '../images/developing-1.png';
 import app from '../images/app-development-1.png';
-import './Home.scss';
+import './Home.css';
 
 
 const Home = () => {
